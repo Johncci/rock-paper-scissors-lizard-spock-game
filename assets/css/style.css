@@ -76,9 +76,74 @@ header>#menu {
     border-radius: 10px;
 }
 
+.combatants-zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #bot {
     height: 150px;
     width: 150px;
     background-color: aliceblue;
     border-radius: 10px;
+}
+
+#player {
+    height: 150px;
+    width: 150px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#vs {
+    margin: 35px;
+    font-size: 1rem;
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+
+#options button {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.option-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#rock {
+    background: url(../images/rock.icon.jpg);
+    background-size: cover;
+}
+
+#paper {
+    background: url(../images/paper.icon.jpg);
+    background-size: cover;
+}
+
+#scissors {
+    background: url(../images/scissors.icon.jpg);
+    background-size: cover;
+}
+
+#lizard {
+    background: url(../images/lizard.icon.jpg);
+    background-size: cover;
+}
+
+#spock {
+    background: url(../images/spock.jpg);
+    background-size: cover;
 }
