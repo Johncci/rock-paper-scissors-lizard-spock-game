@@ -126,24 +126,43 @@ header>#menu {
 #rock {
     background: url(../images/rock.icon.jpg);
     background-size: cover;
+    background-color: blue;
 }
 
 #paper {
     background: url(../images/paper.icon.jpg);
     background-size: cover;
+    background-color: blue;
 }
 
 #scissors {
     background: url(../images/scissors.icon.jpg);
     background-size: cover;
+    background-color: blue;
 }
 
 #lizard {
     background: url(../images/lizard.icon.jpg);
     background-size: cover;
+    background-color: blue;
 }
 
 #spock {
     background: url(../images/spock.jpg);
     background-size: cover;
+    background-color: blue;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 30px;
 }
