@@ -1,3 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    color: black;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    background-color: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header>#menu {
+    width: 150px;
+    min-height: 150px;
+    position: absolute;
     background-color: blue;
+    top: 80px;
+    right: 10px;
+    border-radius: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center
+}
+
+#menu ul {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+
+#hamburger-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.main-content {
+    background-color: lightblue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.combatants-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scores {
+    margin: 50px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#bot {
+    height: 150px;
+    width: 150px;
+    background-color: aliceblue;
+    border-radius: 10px;
 }
