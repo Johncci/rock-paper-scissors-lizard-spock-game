@@ -1,15 +1,20 @@
-const menu = document.getElementById("menu");
-const hamburger = document.getElementById("hamburger-icon");
+$(document).ready(function () {
 
-hamburger.onclick = () => {
-    console.log("hello")
-    toggleMenu()
-}
+    const menu = document.getElementById("menu");
+    const hamburger = document.getElementById("hamburger-icon");
 
-function toggleMenu() {
-    if (menu.style.display == "none") {
-        menu.style.display = "flex";
-    } else {
-        menu.style.display = "none"
+    hamburger.onclick = () => {
+        console.log("clicked")
+        toggleMenu()
     }
-}
+
+    function toggleMenu() {
+        if (menu.style.display == "none") {
+            menu.style.display = "flex";
+        } else {
+            menu.style.display = "none"
+        }
+    }
+
+
+})

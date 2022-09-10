@@ -24,13 +24,13 @@ header>#menu {
     width: 150px;
     min-height: 150px;
     position: absolute;
-    background-color: blue;
+    background-color: aliceblue;
     top: 80px;
     right: 10px;
     border-radius: 10px;
     display: none;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 #menu ul {
@@ -52,6 +52,17 @@ header>#menu {
 #hamburger-icon {
     width: 80px;
     height: 80px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: transparent;
 }
 
 .main-content {
@@ -151,6 +162,35 @@ header>#menu {
     background: url(../images/spock.jpg);
     background-size: cover;
     background-color: blue;
+}
+
+.gameplay {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: lightblue;
+}
+
+.instruction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    padding-top: 30px;
+
+}
+
+.instruction p {
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.rules-list {
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 30px;
+
 }
 
 footer {
