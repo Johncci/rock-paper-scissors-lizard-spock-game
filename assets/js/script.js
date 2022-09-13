@@ -1,23 +1,21 @@
 $(document).ready(function () {
 
-    const menu = document.getElementById("menu");
-    const hamburger = document.getElementById("hamburger-icon");
+    const menu = $("#menu"); //  document.getElementById("menu")
+    const hamburger = $("#hamburger-icon");
 
-    hamburger.onclick = () => {
-        console.log("clicked")
-        toggleMenu()
-    }
+
+
 
     function toggleMenu() {
-        if (menu.style.display == "none") {
-            menu.style.display = "flex";
+        if (menu.css("display") == "none") { // if(menu.style.display == "none")
+            menu.css("display", "flex");
         } else {
-            menu.style.display = "none"
+            menu.css("display", "none");
         }
     }
 
-    const userScoretext = $("#userscore");
-    const botScoretext = $("#botscore");
+    const userScoreText = $("#userscore");
+    const botScoreText = $("#botscore");
     const player = $("#player");
     const bot = $("#bot");
     const rock = $("#rock");
@@ -37,27 +35,88 @@ $(document).ready(function () {
     let userScore = 0;
     let botScore = 0;
 
-    botScoretext.text("0");
+    botScoreText.text("0");
+
+    hamburger.click(function () {
+        toggleMenu()
+    })
 
     rock.click(function () {
-        playBotTurn
+        playBotTurn()
     })
 
     paper.click(function () {
-        playBotTurn
+        playBotTurn()
     })
 
     scissors.click(function () {
-        playBotTurn
+        playBotTurn()
     })
 
     lizard.click(function () {
-        playBotTurn
+        playBotTurn()
     })
 
     spock.click(function () {
-        playBotTurn
+        playBotTurn()
     })
+
+    function playBotTurn() {
+        let random = Math.floor(Math.random() * 5);
+        let randomOptionImage = getOptionImage(random);
+        bot.attr("src", randomOptionImage);
+    }
+
+
+    function getOptionImage(option) {
+        switch (option) {
+            case options.ROCK:
+                return "assets/images/rock.icon.jpg";
+            case options.PAPER:
+                return "assets/images/paper.icon.jpg";
+            case options.SCISSORS:
+                return "assets/images/scissors.icon.jpg";
+            case options.LIZARD:
+                return "assets/images/lizard.icon.jpg";
+            case options.SPOCK:
+                return "assets/images/spock.jpg";
+            default:
+                return "";
+
+
+        }
+    }
+
+    userScoreText.text("0");
+
+    rock.click(function () {
+        playUserTurn()
+    })
+
+    paper.click(function () {
+        playUserTurn()
+    })
+
+    scissors.click(function () {
+        playUserTurn()
+    })
+
+    lizard.click(function () {
+        playUserTurn()
+    })
+
+    spock.click(function () {
+        playUserTurn()
+    })
+
+
+
+
+
+
+
+
+
 
 
 
