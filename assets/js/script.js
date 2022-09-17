@@ -12,6 +12,7 @@ $(document).ready(function () {
     const lizard = $("#lizard");
     const spock = $("#spock");
 
+
     const options = {
         ROCK: 0,
         PAPER: 1,
@@ -22,8 +23,10 @@ $(document).ready(function () {
 
     let userScore = 0;
     let botScore = 0;
+    let userChoice = null;
+    let botChoice = null;
 
-    botScoreText.text("0");
+
 
     hamburger.click(function () {
         toggleMenu()
@@ -32,29 +35,34 @@ $(document).ready(function () {
     rock.click(function () {
         playUserTurn(options.ROCK)
         playBotTurn()
+        makeDecision()
     })
 
     paper.click(function () {
         playUserTurn(options.PAPER)
         playBotTurn()
+        makeDecision()
 
     })
 
     scissors.click(function () {
         playUserTurn(options.SCISSORS)
         playBotTurn()
+        makeDecision()
 
     })
 
     lizard.click(function () {
         playUserTurn(options.LIZARD)
         playBotTurn()
+        makeDecision()
 
     })
 
     spock.click(function () {
         playUserTurn(options.SPOCK)
         playBotTurn()
+        makeDecision()
 
     })
 
@@ -68,14 +76,40 @@ $(document).ready(function () {
 
     function playBotTurn() {
         let random = Math.floor(Math.random() * 5);
+        botChoice = random;
         let randomOptionImage = getOptionImage(random);
         bot.attr("src", randomOptionImage);
     }
 
     function playUserTurn(selectedOption) {
-
+        userChoice = selectedOption;
         let selectedImage = getOptionImage(selectedOption)
         player.attr("src", selectedImage)
+    }
+
+    function makeDecision() {
+        if (userChoice == botChoice) {
+            console.log("its a tie!")
+        }
+
+        if (userChoice == options.ROCK) {
+            if (botChoice == options.PAPER || botChoice == options.SPOCK) {
+                botScore++;
+            } else if (botChoice == options.LIZARD || botChoice == options.SCISSORS) {
+                userScore++
+            }
+
+        }
+
+        updateScore()
+
+
+    }
+
+    function updateScore() {
+        botScoreText.text(botScore);
+        userScoreText.text(userScore);
+
     }
 
 
