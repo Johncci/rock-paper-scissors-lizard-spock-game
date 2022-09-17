@@ -30,28 +30,32 @@ $(document).ready(function () {
     })
 
     rock.click(function () {
-        playBotTurn()
         playUserTurn(options.ROCK)
+        playBotTurn()
     })
 
     paper.click(function () {
-        playBotTurn()
         playUserTurn(options.PAPER)
+        playBotTurn()
+
     })
 
     scissors.click(function () {
-        playBotTurn()
         playUserTurn(options.SCISSORS)
+        playBotTurn()
+
     })
 
     lizard.click(function () {
-        playBotTurn()
         playUserTurn(options.LIZARD)
+        playBotTurn()
+
     })
 
     spock.click(function () {
-        playBotTurn()
         playUserTurn(options.SPOCK)
+        playBotTurn()
+
     })
 
     function toggleMenu() {
@@ -72,8 +76,6 @@ $(document).ready(function () {
 
         let selectedImage = getOptionImage(selectedOption)
         player.attr("src", selectedImage)
-
-
     }
 
 
