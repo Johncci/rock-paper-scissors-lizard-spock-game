@@ -1,19 +1,7 @@
 $(document).ready(function () {
 
-    const menu = $("#menu"); //  document.getElementById("menu")
+    const menu = $("#menu");
     const hamburger = $("#hamburger-icon");
-
-
-
-
-    function toggleMenu() {
-        if (menu.css("display") == "none") { // if(menu.style.display == "none")
-            menu.css("display", "flex");
-        } else {
-            menu.css("display", "none");
-        }
-    }
-
     const userScoreText = $("#userscore");
     const botScoreText = $("#botscore");
     const player = $("#player");
@@ -43,28 +31,49 @@ $(document).ready(function () {
 
     rock.click(function () {
         playBotTurn()
+        playUserTurn(options.ROCK)
     })
 
     paper.click(function () {
         playBotTurn()
+        playUserTurn(options.PAPER)
     })
 
     scissors.click(function () {
         playBotTurn()
+        playUserTurn(options.SCISSORS)
     })
 
     lizard.click(function () {
         playBotTurn()
+        playUserTurn(options.LIZARD)
     })
 
     spock.click(function () {
         playBotTurn()
+        playUserTurn(options.SPOCK)
     })
+
+    function toggleMenu() {
+        if (menu.css("display") == "none") {
+            menu.css("display", "flex");
+        } else {
+            menu.css("display", "none");
+        }
+    }
 
     function playBotTurn() {
         let random = Math.floor(Math.random() * 5);
         let randomOptionImage = getOptionImage(random);
         bot.attr("src", randomOptionImage);
+    }
+
+    function playUserTurn(selectedOption) {
+
+        let selectedImage = getOptionImage(selectedOption)
+        player.attr("src", selectedImage)
+
+
     }
 
 
@@ -87,27 +96,7 @@ $(document).ready(function () {
         }
     }
 
-    userScoreText.text("0");
 
-    rock.click(function () {
-        playUserTurn()
-    })
-
-    paper.click(function () {
-        playUserTurn()
-    })
-
-    scissors.click(function () {
-        playUserTurn()
-    })
-
-    lizard.click(function () {
-        playUserTurn()
-    })
-
-    spock.click(function () {
-        playUserTurn()
-    })
 
 
 
