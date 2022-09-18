@@ -81,6 +81,7 @@ $(document).ready(function () {
         bot.attr("src", randomOptionImage);
     }
 
+
     function playUserTurn(selectedOption) {
         userChoice = selectedOption;
         let selectedImage = getOptionImage(selectedOption)
@@ -134,13 +135,38 @@ $(document).ready(function () {
         }
 
         updateScore()
+        userWins()
+        botWins()
+        endGame()
 
 
     }
 
+
     function updateScore() {
         botScoreText.text(botScore);
         userScoreText.text(userScore);
+
+    }
+
+    function userWins() {
+        if (userScore === 5) {
+            alert("Congratulations, You are the winner!")
+        }
+
+    }
+
+    function botWins() {
+        if (botScore === 5) {
+            alert("The bot has won, better luck next time!")
+        }
+    }
+
+    function endGame() {
+        if (userScore === 5 || botScore === 5) {
+            document.location.reload();
+            clearInterval(interval);
+        }
 
     }
 

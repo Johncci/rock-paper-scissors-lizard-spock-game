@@ -206,3 +206,20 @@ footer .copyright {
     font-size: 15px;
     padding: 30px;
 }
+
+
+@media screen and (max-width: 568px) {
+
+    #options {
+        flex-wrap: wrap;
+
+    }
+
+    #bot,
+    #player {
+        height: 100px;
+        width: 100px;
+    }
+
+
+}
