@@ -98,7 +98,39 @@ $(document).ready(function () {
             } else if (botChoice == options.LIZARD || botChoice == options.SCISSORS) {
                 userScore++
             }
+        }
 
+        if (userChoice == options.PAPER) {
+            if (botChoice == options.SCISSORS || botChoice == options.LIZARD) {
+                botScore++;
+            } else if (botChoice == options.ROCK || botChoice == options.SPOCK) {
+                userScore++
+            }
+
+        }
+
+        if (userChoice == options.SCISSORS) {
+            if (botChoice == options.ROCK || botChoice == options.SPOCK) {
+                botScore++
+            } else if (botChoice == options.LIZARD || botChoice == options.PAPER) {
+                userScore++
+            }
+        }
+
+        if (userChoice == options.LIZARD) {
+            if (botChoice == options.SCISSORS || botChoice == options.ROCK) {
+                botScore++
+            } else if (botChoice == options.PAPER || botChoice == options.SPOCK) {
+                userScore++
+            }
+        }
+
+        if (userChoice == options.SPOCK) {
+            if (botChoice == options.PAPER || botChoice == options.LIZARD) {
+                botScore++
+            } else if (botChoice == options.ROCK || botChoice == options.SCISSORS) {
+                userScore++
+            }
         }
 
         updateScore()
