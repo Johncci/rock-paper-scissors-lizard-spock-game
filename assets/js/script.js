@@ -11,6 +11,8 @@ $(document).ready(function () {
     const scissors = $("#scissors");
     const lizard = $("#lizard");
     const spock = $("#spock");
+    const botWinsTurn = $("#bot-wins")
+    const userWinsTurn = $("#user-wins")
 
 
     const options = {
@@ -134,6 +136,7 @@ $(document).ready(function () {
             }
         }
 
+        winnerDisplay()
         updateScore()
         userWins()
         botWins()
@@ -148,6 +151,7 @@ $(document).ready(function () {
         userScoreText.text(userScore);
 
     }
+
 
     function userWins() {
         if (userScore === 5) {
