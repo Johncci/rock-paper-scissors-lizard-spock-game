@@ -38,6 +38,7 @@ $(document).ready(function () {
         playUserTurn(options.ROCK)
         playBotTurn()
         makeDecision()
+
     })
 
     paper.click(function () {

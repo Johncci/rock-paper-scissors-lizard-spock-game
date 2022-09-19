@@ -80,6 +80,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 
 .scores {
@@ -87,13 +88,14 @@ a:hover {
     padding: 10px;
     background-color: aliceblue;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .combatants-zone {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 #bot {
@@ -119,7 +121,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 0;
+    margin: 50px 0;
 }
 
 #options button {
@@ -139,6 +141,8 @@ a:hover {
     border-radius: 10px;
     border: 2px solid black;
 
+
+
 }
 
 .winner-box {
@@ -146,10 +150,14 @@ a:hover {
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
-    margin: 30px 560px 0px;
     border-radius: 10px;
+    margin: auto;
     padding: 20px;
+    width: 200px;
 }
+
+
+
 
 #bot-wins {
     display: none;
@@ -238,12 +246,22 @@ footer .copyright {
     #options {
         flex-wrap: wrap;
 
+
+    }
+
+    #options button {
+        height: 65px;
+        width: 65px;
     }
 
     #bot,
     #player {
         height: 100px;
         width: 100px;
+    }
+
+    #vs {
+        margin: 20px;
     }
 
 
