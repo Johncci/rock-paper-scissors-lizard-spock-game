@@ -115,6 +115,9 @@ a:hover {
 #vs {
     margin: 35px;
     font-size: 1rem;
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 10px;
 }
 
 #options {
@@ -141,8 +144,6 @@ a:hover {
     border-radius: 10px;
     border: 2px solid black;
 
-
-
 }
 
 .winner-box {
@@ -156,8 +157,9 @@ a:hover {
     width: 200px;
 }
 
-
-
+.outcome {
+    font-size: 20px;
+}
 
 #bot-wins {
     display: none;
@@ -214,15 +216,11 @@ a:hover {
 
 }
 
-.instruction p {
-    padding-top: 30px;
-    font-size: 25px;
-}
-
 .rules-list {
     font-size: 25px;
     line-height: 30px;
-    padding-top: 30px;
+    padding-top: 0;
+    margin: auto;
 
 }
 
@@ -243,6 +241,10 @@ footer .copyright {
 
 @media screen and (max-width: 568px) {
 
+    .scores {
+        font-size: 15px;
+    }
+
     #options {
         flex-wrap: wrap;
 
@@ -261,8 +263,30 @@ footer .copyright {
     }
 
     #vs {
-        margin: 20px;
+        margin: 10px;
+        font-size: .70rem;
+    }
+
+    .winner-box {
+        width: 150px;
+        height: 30px
     }
 
 
+}
+
+@media screen and (min-width: 569px) {
+
+    #options button {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    #options button {
+        height: 100px;
+        width: 100px;
+    }
 }
