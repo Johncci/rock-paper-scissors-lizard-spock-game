@@ -11,8 +11,8 @@ $(document).ready(function () {
     const scissors = $("#scissors");
     const lizard = $("#lizard");
     const spock = $("#spock");
-    const botWinsTurn = $("#bot-wins")
-    const userWinsTurn = $("#user-wins")
+    const outcome = $("#outcome")
+
 
 
     const options = {
@@ -93,47 +93,58 @@ $(document).ready(function () {
 
     function makeDecision() {
         if (userChoice == botChoice) {
-            console.log("its a tie!")
+            outcome.text("It's a tie");
         }
 
         if (userChoice == options.ROCK) {
             if (botChoice == options.PAPER || botChoice == options.SPOCK) {
                 botScore++;
+                outcome.text("Bot scored a point");
+
             } else if (botChoice == options.LIZARD || botChoice == options.SCISSORS) {
-                userScore++
+                userScore++;
+                outcome.text("User scored a point");
             }
         }
 
         if (userChoice == options.PAPER) {
             if (botChoice == options.SCISSORS || botChoice == options.LIZARD) {
                 botScore++;
+                outcome.text("Bot scored a point");
             } else if (botChoice == options.ROCK || botChoice == options.SPOCK) {
-                userScore++
+                userScore++;
+                outcome.text("User scored a point");
             }
 
         }
 
         if (userChoice == options.SCISSORS) {
             if (botChoice == options.ROCK || botChoice == options.SPOCK) {
-                botScore++
+                botScore++;
+                outcome.text("Bot scored a point");
             } else if (botChoice == options.LIZARD || botChoice == options.PAPER) {
-                userScore++
+                userScore++;
+                outcome.text("User scored a point");
             }
         }
 
         if (userChoice == options.LIZARD) {
             if (botChoice == options.SCISSORS || botChoice == options.ROCK) {
-                botScore++
+                botScore++;
+                outcome.text("Bot scored a point");
             } else if (botChoice == options.PAPER || botChoice == options.SPOCK) {
-                userScore++
+                userScore++;
+                outcome.text("User scored a point");
             }
         }
 
         if (userChoice == options.SPOCK) {
             if (botChoice == options.PAPER || botChoice == options.LIZARD) {
-                botScore++
+                botScore++;
+                outcome.text("Bot scored a point");
             } else if (botChoice == options.ROCK || botChoice == options.SCISSORS) {
-                userScore++
+                userScore++;
+                outcome.text("User scored a point");
             }
         }
 
@@ -156,21 +167,21 @@ $(document).ready(function () {
 
     function userWins() {
         if (userScore === 5) {
-            alert("Congratulations, You are the winner!")
+            outcome.text("Congratulations, You are the winner!")
         }
 
     }
 
     function botWins() {
         if (botScore === 5) {
-            alert("The bot has won, better luck next time!")
+            outcome.text("The bot has won, better luck next time!")
         }
     }
 
     function endGame() {
-        if (userScore === 5 || botScore === 5) {
-            document.location.reload();
-            clearInterval(interval);
+        if (userScore == 5 || botScore == 5) {
+            userScore = 0;
+            botScore = 0;
         }
 
     }
