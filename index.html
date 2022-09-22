@@ -14,6 +14,8 @@
 </head>
 
 <body>
+
+    <!--header and hamburger icon nav bar-->
     <header>
         <h1>Rock-paper-Scissors-Lizard-Spock</h1>
         <img id="hamburger-icon" src="assets/images/hamburger-icon.jpg
@@ -33,14 +35,20 @@
     </header>
 
     <main>
+
+        <!--main image-->
+
         <div class="main-content" role="img"
             aria-label="background image of space background with space objects in foreground">
+
+            <!--score keeper boxes-->
 
             <div class="combatants-score">
                 <p class="scores">User: <span id="userscore">0</span></p>
                 <p class="scores">Bot: <span id="botscore">0</span></p>
             </div>
 
+            <!--player and bot avatars-->
 
             <div class="combatants-zone">
                 <img id="player" src="assets/images/user-image.webp" alt="picture of a dark figure for user profile">
@@ -48,34 +56,37 @@
                 <img id="bot" src="assets/images/bot-image.webp" alt="picture of a bot for the bot user profile">
             </div>
 
+            <!--box for announcing who wins each round and overall winner-->
+
             <div class="winner-box">
                 <p id="outcome">First to 5 wins!</p>
+
+                <!--game option buttons for selection-->
 
             </div>
             <div id="options">
                 <div class="option-card">
-                    <button id="rock" class="option-button" aria-label="rock Option"></button>
+                    <button id="rock" class="option-button" aria-label="select rock"></button>
                     <p>Rock</p>
 
                 </div>
                 <div class="option-card">
-                    <button id="paper" class="option-button" aria-label="paper option"></button>
+                    <button id="paper" class="option-button" aria-label="select paper"></button>
                     <p>Paper</p>
-
 
                 </div>
                 <div class="option-card">
-                    <button id="scissors" class="option-button" aria label="scissors option"></button>
+                    <button id="scissors" class="option-button" aria-label="select scissors"></button>
                     <p>Scissors</p>
 
                 </div>
                 <div class="option-card">
-                    <button id="lizard" class="option-button" aria-label="lizard option"></button>
+                    <button id="lizard" class="option-button" aria-label="select lizard"></button>
                     <p>Lizard</p>
 
                 </div>
                 <div class="option-card">
-                    <button id="spock" class="option-button" aria-label="spock option"></button>
+                    <button id="spock" class="option-button" aria-label="select spock"></button>
                     <p>Spock</p>
 
                 </div>
@@ -83,6 +94,9 @@
         </div>
 
     </main>
+
+    <!--footer area for copyright notice-->
+
     <footer>
         <p class="copyright">Copyright © John Considine Games</p>
     </footer>

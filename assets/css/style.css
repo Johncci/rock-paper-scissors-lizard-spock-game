@@ -13,6 +13,8 @@ body {
     background-color: aliceblue;
 }
 
+/*--game heading and hamburger menu--*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -65,6 +67,8 @@ a:hover {
     background-color: transparent;
 }
 
+/*--main image styling--*/
+
 .main-content {
     background: url(../images/background-image.webp) no-repeat center center;
     background-size: cover;
@@ -75,6 +79,8 @@ a:hover {
     justify-content: center;
     flex-direction: column;
 }
+
+/*--styling for score keeping boxes--*/
 
 .combatants-score {
     display: flex;
@@ -90,6 +96,8 @@ a:hover {
     border-radius: 10px;
     font-size: 20px;
 }
+
+/*--styling for boxes containing user and bot avatars--*/
 
 .combatants-zone {
     display: flex;
@@ -112,6 +120,8 @@ a:hover {
     border-radius: 10px;
 }
 
+/*--versus appreviation between avatar boxes--*/
+
 #vs {
     margin: 35px;
     font-size: 1rem;
@@ -119,6 +129,25 @@ a:hover {
     background-color: aliceblue;
     border-radius: 10px;
 }
+
+/*--box to display winner turns and eventual overall winner--*/
+
+.winner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    width: 200px;
+}
+
+.outcome {
+    font-size: 20px;
+}
+
+/*--game selection options for rock, paper, scissors, lizard, spock--*/
 
 #options {
     display: flex;
@@ -143,30 +172,6 @@ a:hover {
     background-color: aliceblue;
     border-radius: 10px;
     border: 2px solid black;
-
-}
-
-.winner-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin: auto;
-    padding: 20px;
-    width: 200px;
-}
-
-.outcome {
-    font-size: 20px;
-}
-
-#bot-wins {
-    display: none;
-}
-
-#user-wins {
-    display: none;
 }
 
 #rock {
@@ -199,6 +204,8 @@ a:hover {
     background-color: blue;
 }
 
+/*--rules page--*/
+
 .gameplay {
     height: 85vh;
     display: flex;
@@ -223,6 +230,8 @@ a:hover {
     margin: 10px;
 
 }
+
+/*--footer and copyright--*/
 
 footer {
     display: flex;
