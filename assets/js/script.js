@@ -93,27 +93,27 @@ $(document).ready(function () {
 
     function makeDecision() {
         if (userChoice == botChoice) {
-            outcome.text("It's a tie");
+            outcome.text("It's a tie!");
         }
 
         if (userChoice == options.ROCK) {
             if (botChoice == options.PAPER || botChoice == options.SPOCK) {
                 botScore++;
-                outcome.text("Bot scored a point");
+                outcome.text("Bot scored a point!");
 
             } else if (botChoice == options.LIZARD || botChoice == options.SCISSORS) {
                 userScore++;
-                outcome.text("User scored a point");
+                outcome.text("You scored a point!");
             }
         }
 
         if (userChoice == options.PAPER) {
             if (botChoice == options.SCISSORS || botChoice == options.LIZARD) {
                 botScore++;
-                outcome.text("Bot scored a point");
+                outcome.text("Bot scored a point!");
             } else if (botChoice == options.ROCK || botChoice == options.SPOCK) {
                 userScore++;
-                outcome.text("User scored a point");
+                outcome.text("You scored a point!");
             }
 
         }
@@ -121,30 +121,30 @@ $(document).ready(function () {
         if (userChoice == options.SCISSORS) {
             if (botChoice == options.ROCK || botChoice == options.SPOCK) {
                 botScore++;
-                outcome.text("Bot scored a point");
+                outcome.text("Bot scored a point!");
             } else if (botChoice == options.LIZARD || botChoice == options.PAPER) {
                 userScore++;
-                outcome.text("User scored a point");
+                outcome.text("You scored a point!");
             }
         }
 
         if (userChoice == options.LIZARD) {
             if (botChoice == options.SCISSORS || botChoice == options.ROCK) {
                 botScore++;
-                outcome.text("Bot scored a point");
+                outcome.text("Bot scored a point!");
             } else if (botChoice == options.PAPER || botChoice == options.SPOCK) {
                 userScore++;
-                outcome.text("User scored a point");
+                outcome.text("You scored a point!");
             }
         }
 
         if (userChoice == options.SPOCK) {
             if (botChoice == options.PAPER || botChoice == options.LIZARD) {
                 botScore++;
-                outcome.text("Bot scored a point");
+                outcome.text("Bot scored a point!");
             } else if (botChoice == options.ROCK || botChoice == options.SCISSORS) {
                 userScore++;
-                outcome.text("User scored a point");
+                outcome.text("You scored a point!");
             }
         }
 
@@ -174,7 +174,7 @@ $(document).ready(function () {
 
     function botWins() {
         if (botScore === 5) {
-            outcome.text("The bot has won, better luck next time!")
+            outcome.text("Bot wins, better luck next time!")
         }
     }
 
@@ -190,15 +190,15 @@ $(document).ready(function () {
     function getOptionImage(option) {
         switch (option) {
             case options.ROCK:
-                return "assets/images/rock.icon.jpg";
+                return "assets/images/rock.option.webp";
             case options.PAPER:
-                return "assets/images/paper.icon.jpg";
+                return "assets/images/paper.option.webp";
             case options.SCISSORS:
-                return "assets/images/scissors.icon.jpg";
+                return "assets/images/scissors.option.webp";
             case options.LIZARD:
-                return "assets/images/lizard.icon.jpg";
+                return "assets/images/lizard.option.webp";
             case options.SPOCK:
-                return "assets/images/spock.jpg";
+                return "assets/images/spock.option.webp";
             default:
                 return "";
 
