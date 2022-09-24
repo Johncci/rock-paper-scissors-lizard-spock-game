@@ -10,27 +10,27 @@ I first became aware of the game like a lot of people when I viewed it on an epi
 
 ## <u>**Design Goals**</u> ##
 
-The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score is achieved. The score is tracked and displayed for the user. The overall design of the page including game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. 
+The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winners of each round is also displayed for the user. The overall design of the page including game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galatical objects have a relationship to both spock and the american show the Big Bang Theory where was when the game became widely known. 
 
 
 ## <u>**Design Features**</u> ##
 
 * **Navigation Bar**
 
-  * Featured on both pages the navigation bars main purpose is to allow the user to navigate between the rules section and the home page where the actual game exists. The navigation bar is handled by a hamburger-menu on all screen sizes and is fully responsive. The main heading is simply the title of the game and located to the left of the header and the hamburger menu is dispalyed on the right.
+  * Featured on both pages the navigation bars main purpose is to allow the user to navigate between the rules section and the home page where the actual game exists. The navigation bar is handled by a hamburger-menu on all screen sizes and is fully responsive. The main heading is simply the title of the game and located to the left of the header and the hamburger menu is displayed on the right.
   
   * The value of the navigation bar and main heading are that they are identical on both pages to allow for easy navigation and create a good user experience.
 
 
-  ![Navigation bar]() 
+  ![Navigation bar](assets/images/header-hamburger-menu.png) 
 
 
   * **Main page**
 
-    * On arrival to the website the user will be instantly viewing the game itself. The home page displays the game itself central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game itself are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes while playing the game. 
+    * On arrival to the website the user will be instantly viewing the game itself. The home page displays the game itself central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game itself are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes while playing the game. The box below the comabatant boxes tells the user who has won after each turn and then when the winning score is reached will display a message stating who is the overall winner. The same box allows the user to see the winning score required to win the game before the first game is initiated.
 
 
-    ![Main Page]()
+    ![Main Page](assets/images/game-layout-image.png)
 
 
    * **Footer** 
@@ -38,22 +38,22 @@ The purpose of this game is to provide the user with an enjoyable game of chance
      * The footer is a simple design which remains consistent on both pages. Its only content is the copyright for the game.
 
 
-   ![Footer containing copright for the game]() 
+   ![Footer containing copright for the game](assets/images/footer-image.png) 
 
 
    * **Rules page**
 
-     * The only other page attached to this website containts the rules of the game. The rules are defined here as the result of any choice the user makes. I gave consideration to displayin the rules on the main page and keeping the content to a single page however I came to the decision that this would have a negative impact on user experience on smaller devices such as mobile phones due to scrolling up and down. The design is intented just a simple set of rules that are easy to read and are not distracted by any background images.
+     * The only other page attached to this website containts the rules of the game. The rules are defined here as the result of any choice the user makes. I gave consideration to displaying the rules on the main page and keeping the content to a single page however I came to the decision that this would have a negative impact on user experience on smaller devices such as mobile phones due to scrolling up and down. The design is intented to be just a simple set of rules that are easy to read and are not distracted by any background images.
 
 
-     ![Rules of the game]()
+     ![Rules of the game](assets/images/rules-page-image.png)
 
 
     
 
 ### **Initial Discussion**
 
-The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use by all ages. The website is intended to have a simple layout which only provides the information required to play the game. The intention was to design a layout that is eye catching to the user and is not distraction from the game itself. The user and bot images are simple balcklines with a background image so as to provide a positive response when the box is populated by a user choice which then also selects a bot choice.
+The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use by all ages. The website is intended to have a simple layout which only provides the information required to play the game. The intention was to design a layout that is eye catching to the user and is not a distraction from the game itself. The user and bot images are simple blacklines with a background image so as to provide a positive response when the box is populated by a user choice which then also selects a bot choice.
 
 <br>
 
@@ -74,17 +74,18 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
   * To be able to view the site on a range of devices including a smartphone, a tablet and a laptop.
   * To make the site informative without having too much information to allow users to easily see the essential details.
   * To provide easy navigation throughout the site so users can easily navigate to and from both pages.
-  * To allow quick and easy gameplay .
+  * To allow quick and easy gameplay.
   * To display a winner and loser at the end of each completed game.
+  * To allow the next click on the choices to begin the next game.
 
 <br>
 
 * **First Time Visitor Goals**
 
   * I want to view the rules of the game before playing.
-  * I want to see who wins and loses after each turn so I do not have to keep returning to the rules to understand what is happening during gameplay.
-  * I want to have a clear and uplifting display on the screen when I win the game.
-  * I want to be comiserated when i lose the game and encouraged to play again to see if I can win.
+  * I want easy navigation from the game to the rules page and back again.
+  * I want to see who wins and loses after each turn so I do not have to keep returning to the rules to understand what is   happening during gameplay.
+  * I want to have a clear message on the screen to inform me if I win or lose the game.
   * I want the game to quickly reset so I can play again after completion of each game.
 
 <br>
@@ -92,33 +93,38 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 * **Returning Visitor Goals**
 
   * The game was simple and fun on my first visit to this site and I want to be encouraged to return and play again as many times as I want.
-
-  * I want to try my luck at beating my previous scores.
+  * I want to try my luck at beating the bot by a better winning margin.
   
 <br>
  
 * **Frequent Visitor Goals**
 
-  * I want to return to this site multiple times to continue to try better by previous best score. 
+  * I want to return to this site multiple times to continue to try better my previous best winning margin. 
 
 
 * **Wireframes**
 
+ * The following images are the wireframe created for the main page and the rules page. I gave consideration to using a wireframe tool such as Balsamiq wireframing but instead I opted to wireframe the game using pencil and paper. The design is relatively simple and only one page required more than a single box so this is my reasoning behind using this method.
+
  * **Main Page**
 
+ ![Main page wireframe](assets/images/pencil-wireframe-main.jpg)
+
  * **Rules Page**
+
+ ![Rules page wireframe](assets/images/pencil-wireframe-rules.jpg)
 
  ## <u>**Designs**</u>
 
 * **Colour Scheme**
 
-  * The below image was taken from the website colorhexa.com and it is an example of the main colour displayed in this site. The original colour picked was a light green colour with a value of #ccf381. This colour was selected in place of #ccf381 as it is considered a web safe colour as shown in colorhexa.com. 
-  The other colours displayed on the site are whitesmoke and black. The whitesmoke colour was chosen for the purpose of emphasising the foreground display. Black was used for all font colours with red used for all hover actions.
+  * The colour I selected for the footer and header is rgb(92, 181, 172). I originally had a darker shade of this colour but when I tested it on [wave](wave.webaim.org) which is an accesibility tool for the web, the colour and text contrasts were displaying an error. I changed to rgb(92, 181, 172) and tested again and no errors showed.
+  The other colours displayed on the site are whitesmoke and black. The whitesmoke colour was chosen for the purpose of emphasising the foreground display. Black was used for all font colours and a black underline was used for the hover action on the displayed nav menu.
 
-  * The website used for the colour scheme is [Color hexa](https://www.colorhexa.com/ccff99). I have attached a screenshot form the website of the particular colour used.
-<br>
+* **Colour images**  
 
-  ![Webpage used for main colour styling](assets/images/color-styling.png)
+
+
 <br>
 
 * **Font-family**
@@ -140,7 +146,7 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 
   * Using alt attribute with images on the site or aria-labels in the cases where the images were placed in the CSS file. The method of achieving this is displayed in the credits of this readme.md file.
 
-  * Ensuring sufficent colour contrast throughout the site.
+  * Ensuring sufficent colour contrast throughout the site. This was ensured by testing the website on [wave](wave.webaim.org). 
 
 <br>
 
@@ -160,28 +166,33 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 
   * Am I Responsive? - To show the website image on a range of devices.
 
-  * NVaccess.org - To test the alt and aria-lable attributes.
+  * NVaccess.org - To test the alt and aria-label attributes.
 <br>
 
 ## <U>**Testing and Bugs**</U>
 
 * Testing was an ongoing process from the start to the finish of the build. I used a chrome developer tools to assist me in solving problems as I progressed through the project. I encountered the following build issues and bugs as I progressed through the project.
 
- * The hamburger menu would not perform as expected. The contained nav bar was intended to display central when clicked but it dispalyed at the top of the opened box. I corrected this by targetting the css through javaScript and had it display as a flex property.
+ * The hamburger menu would not perform as expected. The contained nav bar was intended to display central when clicked but it displayed at the top of the opened box. I corrected this by targetting the css through javaScript and had it display as a flex property.
 
  ## <U>**W3C Validator**</U>
 
 * The W3C validator was used to to validate the html on all pages of this website. No errors were returned when passing through the W3C validator.
  
-  * [Main Page HTML]()
-  * [Rules Page HTML]()
+  * [Main Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io%2Findex.html)
+  * [Rules Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io%2Frules.html)
   
 <br>
 
-* The official Jigsaw Validator was used to validate the CSS on the website. No errors were found when passing through the Jigsaw validator.
+* The offical Jigsaw Validator was used to validate the CSS on the website. No errors were found when passing through the Jigsaw validator.
 <br>
 
-![CSS Validator](assets/images/css-validator.png)
+![CSS Validator](assets/images/css-validator-image.png)
+<br>
+
+## <U>**javaScript Testing**</U>
+
+[JSHint](https://jshint.com/) was used to check the functionality of the javaScript code. No significant issues recorded. The JQuery declarations were not recognoised and shown as undefined variables as jShint only reads vanilla javaScript.
 <br>
 
 ## **Final Testing User Goals** 
@@ -293,6 +304,7 @@ To clone the Rock/Paper/Scissors/Lizard/Spock repository:
   * The images on this site were changed from there original settings using [ezgif.com](https://ezgif.com/).
   * The font for this page was set using [googlefonts.com](https://fonts.google.com/). 
   * The alt and aria-label attributes were tested using [NVaccess.org](https://www.nvaccess.org/download/).
+  * The accesibility of the website was checked using [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 
   All media listed above was used with the permission of the owner.
 <br>
