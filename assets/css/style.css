@@ -10,7 +10,7 @@ body {
     color: black;
     font-family: lato, sans-serif;
     font-weight: 300;
-    background-color: aliceblue;
+    background-color: rgb(92, 181, 172);
 }
 
 /*--game heading and hamburger menu--*/
@@ -20,13 +20,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    color: black;
 }
 
 header>#menu {
     width: 150px;
     min-height: 150px;
     position: absolute;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     top: 80px;
     right: 10px;
     border-radius: 10px;
@@ -46,7 +47,7 @@ header>#menu {
     padding: 20px;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     border-radius: 10px;
 
 }
@@ -54,6 +55,7 @@ header>#menu {
 #hamburger-icon {
     width: 80px;
     height: 80px;
+    border-radius: 10px;
 }
 
 a {
@@ -72,7 +74,6 @@ a:hover {
 .main-content {
     background: url(../images/background-image.webp) no-repeat center center;
     background-size: cover;
-    background-blend-mode: screen;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -92,7 +93,7 @@ a:hover {
 .scores {
     margin: 50px;
     padding: 10px;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     border-radius: 10px;
     font-size: 20px;
 }
@@ -109,14 +110,14 @@ a:hover {
 #bot {
     height: 150px;
     width: 150px;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     border-radius: 10px;
 }
 
 #player {
     height: 150px;
     width: 150px;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     border-radius: 10px;
 }
 
@@ -125,8 +126,8 @@ a:hover {
 #vs {
     margin: 35px;
     font-size: 1rem;
-    border: 2px solid aliceblue;
-    background-color: aliceblue;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
     border-radius: 10px;
 }
 
@@ -136,7 +137,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     border-radius: 10px;
     margin: auto;
     padding: 20px;
@@ -153,7 +154,8 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    margin: 50px;
+    padding-bottom: 50px;
 }
 
 #options button {
@@ -169,7 +171,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: whitesmoke;
     border-radius: 10px;
     border: 2px solid black;
 }
@@ -207,27 +209,27 @@ a:hover {
 /*--rules page--*/
 
 .gameplay {
-    height: 85vh;
+    height: 81vh;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    background-color: lightblue;
+    background-color: whitesmoke;
 }
 
 .instruction {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightblue;
+    background-color: whitesmoke;
     padding-top: 30px;
 
 }
 
 .rules-list {
     font-size: 25px;
-    line-height: 30px;
-    padding-top: 0;
-    margin: 10px;
+    line-height: 35px;
+    padding-top: 50px;
+    margin-left: 40px;
+
 
 }
 
@@ -237,13 +239,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 footer .copyright {
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 20px;
     padding: 30px;
 }
 
