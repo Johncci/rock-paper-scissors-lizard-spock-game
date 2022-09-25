@@ -2,7 +2,7 @@
 
 
 ## <U>**Introduction**</U>
-I first became aware of the game like a lot of people when I viewed it on an episode of the american comedy show 'The Big Bang Theory'. The game is based on the original game of chance named Rock, Paper Scissors. This game adds two extra options named 'lizard' and 'spock'. Each image is assigned a hand signal which represents the option the user chooses. Each option can either win, lose or draw dpending on the option the opponent chooses. It is essentially a simple game of chance. The website I have created allows the user to play against a bot until a winning score is reached. To view the full website please click on the following link diplayed below.
+I first became aware of the game like a lot of people when I viewed it on an episode of the american comedy show 'The Big Bang Theory'. The game is based on the original game of chance named Rock, Paper Scissors. This game adds two extra options named 'lizard' and 'spock'. Each image is assigned a hand signal which represents the option the user chooses. Each option can either win, lose or draw depending on the option the opponent chooses. It is essentially a simple game of chance. The website I have created allows the user to play against a bot until a winning score is reached. To view the full website please click on the following link diplayed below.
 
 
 [View Rock Paper Scissors Lizard Spock on Github Pages]()
@@ -10,7 +10,7 @@ I first became aware of the game like a lot of people when I viewed it on an epi
 
 ## <u>**Design Goals**</u> ##
 
-The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winners of each round is also displayed for the user. The overall design of the page including game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galatical objects have a relationship to both spock and the american show the Big Bang Theory where was when the game became widely known. 
+The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winners of each round is also displayed for the user. The overall design of the page including game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galatical objects have a relationship to both spock and the american show the Big Bang Theory where was when the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll when they started playing so the scores downto the bottom option remain visable on the screen when playing. This applies mainly to smaller screens.
 
 
 ## <u>**Design Features**</u> ##
@@ -27,7 +27,7 @@ The purpose of this game is to provide the user with an enjoyable game of chance
 
   * **Main page**
 
-    * On arrival to the website the user will be instantly viewing the game itself. The home page displays the game itself central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game itself are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes while playing the game. The box below the comabatant boxes tells the user who has won after each turn and then when the winning score is reached will display a message stating who is the overall winner. The same box allows the user to see the winning score required to win the game before the first game is initiated.
+    * On arrival to the website the user will be instantly viewing the game itself. The home page displays the game itself central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game itself are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes while playing the game. The box below the combatant boxes tells the user who has won after each turn and then when the winning score is reached, it will display a message stating who is the overall winner. The same box allows the user to see the winning score required to win the game before the first game is initiated. I have also included text telling the user to check the menu for the rules and where to click to begin the game. I included these three lines of text so that the purpose of the game is immediately evident to the user.
 
 
     ![Main Page](assets/images/game-layout-image.png)
@@ -47,9 +47,7 @@ The purpose of this game is to provide the user with an enjoyable game of chance
 
 
      ![Rules of the game](assets/images/rules-page-image.png)
-
-
-    
+  
 
 ### **Initial Discussion**
 
@@ -104,7 +102,7 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 
 * **Wireframes**
 
- * The following images are the wireframe created for the main page and the rules page. I gave consideration to using a wireframe tool such as Balsamiq wireframing but instead I opted to wireframe the game using pencil and paper. The design is relatively simple and only one page required more than a single box so this is my reasoning behind using this method.
+ * The following images are the wireframe created for the main page and the rules page. I gave consideration to using a wireframe tool but instead I opted to wireframe the game using pencil and paper. The design is relatively simple and only one page required more than a single box so this is my reasoning behind using this method.
 
  * **Main Page**
 
@@ -118,7 +116,7 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 
 * **Colour Scheme**
 
-  * The colour I selected for the footer and header is rgb(92, 181, 172). I originally had a darker shade of this colour but when I tested it on [wave](wave.webaim.org) which is an accessibility tool for the web, the colour and text contrasts were displaying an error. I changed to rgb(92, 181, 172) and tested again and no errors showed.
+  * The colour I selected for the footer and header is rgb(92, 181, 172). I originally had a darker shade of this colour but when I tested it on [wave](https://wave.webaim.org/) which is an accessibility tool for the web, the text and text contrast was insufficent and was displaying an error. I changed to rgb(92, 181, 172) and tested again and no errors were displayed.
   The other colours displayed on the site are whitesmoke and black. The whitesmoke colour was chosen for the purpose of emphasising the foreground display. Black was used for all font colours and a black underline was used for the hover action on the displayed nav menu.
 
 * **Colour images**  
@@ -129,7 +127,7 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 
 * **Font-family**
 
-  * Roboto was used for the headings on the site. It is a Sans-Serif font. The back up font selected was San-Serif.
+  * Roboto was used for the headings and copyright on the site. It is a Sans-Serif font. The back up font selected was San-Serif.
 
   * Lato was used for the body of the site. It is also a Sans-Serif font. The back up font selected was Sans-Serif.
 
@@ -144,9 +142,9 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 
   * Using semantic HTML.
 
-  * Using alt attribute with images on the site or aria-labels in the cases where the images were placed in the CSS file. The method of achieving this is displayed in the credits of this readme.md file.
+  * Using alt attributes with images on the site or aria-labels in the cases where the images were placed in the CSS file. The method of achieving this is displayed in the credits of this readme.md file.
 
-  * Ensuring sufficent colour contrast throughout the site. This was ensured by testing the website on [wave](wave.webaim.org). 
+  * Ensuring sufficent colour contrast throughout the site. This was ensured by testing the website on [wave](https://wave.webaim.org/). 
 
 <br>
 
@@ -175,6 +173,12 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 
  * The hamburger menu would not perform as expected. The contained nav bar was intended to display central when clicked but it displayed at the top of the opened box. I corrected this by targetting the css through javaScript and had it display as a flex property.
 
+ * The hamburger menu also needed to be double clicked to open on arrival to the page. I am still not aware of why this was happening ,however after changing core javaScript to JQuery this problem was resolved and it now opens with a single click
+
+ * During the course of building this website, I was focused on testing responsiveness by decreasing the screen width and then adjusting the media queries accordingly. It was only near the end of the build that I turned my phone to auto rotate and observed that the main content was overflowing into the heading and the footer when the screen was horizontal. I experimented with padding and margin styles to try resolve this problem but was unsuccessful. I eventually solved the problem by simply applying a min-height to the main-content div which holds the main background image.
+
+ * I encountered some issues with restting the game when the winning score was reached. I originally used a method where the page actually reloaded when the winning score was reached using reload and clearInterval functions which I found on the website [mdn web docs](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up). This worked to reset the game except the final message displaying the winner was displayed and then reset too quickly for the user to read. I resolved this by adding a simple function to the winning botscore and userscore and deleting my previous reset method.
+
  ## <U>**W3C Validator**</U>
 
 * The W3C validator was used to to validate the html on all pages of this website. No errors were returned when passing through the W3C validator.
@@ -192,7 +196,7 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 
 ## <U>**javaScript Testing**</U>
 
-[JSHint](https://jshint.com/) was used to check the functionality of the javaScript code. No significant issues recorded. The JQuery declarations were not recognoised and shown as undefined variables as jShint only reads vanilla javaScript.
+[JSHint](https://jshint.com/) was used to check the functionality of the javaScript code. No significant issues recorded. The JQuery declarations were not recognoised and shown as undefined variables as jShint only reads core javaScript.
 <br>
 
 ## **Final Testing User Goals** 
@@ -215,7 +219,7 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 
 * Gameplay
 
- * I tested the ganme multiple times with the aim of clicking on every option and viewing all possible outcomes to verify the game functioned as expected.
+ * I tested the game multiple times with the aim of clicking on every option and viewing all possible outcomes to verify the game functioned as expected.
   
   * When rock was clicked and the bot selection was lizard or scissors a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed rock, a message appeared declaring the game turn a tie.
   When the bot selection was paper or spock a message appeared delaring the bot the winner and the bot score was increased by one.
@@ -251,9 +255,7 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 The following images in this section are displayed as lighthouse desktop as the first image and lighthouse mobile as the second image.
 <br>
 
-1. original score
-
-2. improved score 
+1. The first lighthouse scores for performance on mobile was 76 and 92 on desktop. I improved this score to the figures displayed below by optimising all of my images and changing the format to webp using ezgif.com. The accessibility score was 91 for this page. This was due to the buttons not having a means of identification by screen readers. I improved this score to the score displayed below by adding aria-labels to the buttons. 
 
 ![Lighthouse Main desktop score]()
 
@@ -305,11 +307,17 @@ To clone the Rock/Paper/Scissors/Lizard/Spock repository:
   5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 <br>
 
+## <u>**Libraries**</u>
+
+* jQuery is the only library used for this website. The reason I chose to use this library was for readability and just to make the code appear tidier. I am aware that it was not really necessary to use jQuery to build this website but i decided that it was beneficial and educational to me to write the code using core javaScript and then use W3Schools documentation for reference to write the jQuery code. The main device used to implement this plan was the website SyncFiddle which I used as a testing area for this website.
+
 ## <u>**Credits**</u>
 
 ### **Content**
 
   * I began this project using float properties but I then learned of an easier way to position items using flex. I learned how to apply [Flex Positioning](https://www.w3schools.com/css/css3_flexbox.asp) at W3C schools.
+
+  * The javaScript library use for this website is jQuery and I learned how to apply this library using [jQuery](https://www.w3schools.com/jquery/jquery_intro.asp) at W3Schools.
 
   * The idea for the code to create the aria-labels for images in the CSS file was provided to me by tutor support who suggested a a website where I could learn how to do this. The website I accessed to write the code for the aria-label is [davidmacd.com](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html).
 <br>
@@ -317,10 +325,13 @@ To clone the Rock/Paper/Scissors/Lizard/Spock repository:
 ### **Media**
 
   * The icon/image for the hamburger menu was taken from [icon-libarary.com](https://icon-library.com/).
+  * The images for the five game choices were downloaded from [icon-libarary.com](https://icon-library.com/).
+  * The images for the bot and user images were downloaded from [pixabay](https://pixabay.com/images/search/avatar/)
   * The images on this site were changed from there original settings using [ezgif.com](https://ezgif.com/).
   * The font for this page was set using [googlefonts.com](https://fonts.google.com/). 
   * The alt and aria-label attributes were tested using [NVaccess.org](https://www.nvaccess.org/download/).
-  * The accesibility of the website was checked using [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+  * The accesibility of the website was checked using [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/)
+  * The background image used in this website was downloaded from [freepik.com](https://www.freepik.com/search?format=search&query=space%20background).
 
   All media listed above was used with the permission of the owner.
 <br>
