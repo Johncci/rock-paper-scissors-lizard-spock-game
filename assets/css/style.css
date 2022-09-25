@@ -53,8 +53,8 @@ header>#menu {
 }
 
 #hamburger-icon {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 10px;
 }
 
@@ -74,7 +74,7 @@ a:hover {
 .main-content {
     background: url(../images/background-image.webp) no-repeat center center;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -140,12 +140,12 @@ a:hover {
     background-color: whitesmoke;
     border-radius: 10px;
     margin: auto;
-    padding: 20px;
-    width: 200px;
+    padding: 5px;
+    min-height: 60px;
 }
 
-.outcome {
-    font-size: 20px;
+#outcome {
+    font-size: 15px;
 }
 
 /*--game selection options for rock, paper, scissors, lizard, spock--*/
@@ -155,7 +155,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 #options button {
@@ -209,7 +209,7 @@ a:hover {
 /*--rules page--*/
 
 .gameplay {
-    height: 81vh;
+    min-height: 81vh;
     display: flex;
     justify-content: center;
     background-color: whitesmoke;
@@ -228,6 +228,7 @@ a:hover {
     line-height: 35px;
     padding-top: 50px;
     margin-left: 40px;
+    margin-bottom: 40px;
 }
 
 /*--footer and copyright--*/

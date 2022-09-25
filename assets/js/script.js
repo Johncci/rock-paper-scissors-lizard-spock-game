@@ -102,8 +102,7 @@ $(document).ready(function () {
         bot.attr("src", randomOptionImage);
     }
 
-    // The below function places the user choice selected option into the users combatant box by gettting the selected image. 
-
+    // The below function places the user choice selected option into the users combatant box by getting the selected image. 
 
     function playUserTurn(selectedOption) {
         userChoice = selectedOption;
@@ -218,7 +217,6 @@ $(document).ready(function () {
     }
 
     //This switch/case statement gets the images required for the above functions based on selections.
-
 
     function getOptionImage(option) {
         switch (option) {
