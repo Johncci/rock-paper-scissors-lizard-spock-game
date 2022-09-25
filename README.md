@@ -118,7 +118,7 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 
 * **Colour Scheme**
 
-  * The colour I selected for the footer and header is rgb(92, 181, 172). I originally had a darker shade of this colour but when I tested it on [wave](wave.webaim.org) which is an accesibility tool for the web, the colour and text contrasts were displaying an error. I changed to rgb(92, 181, 172) and tested again and no errors showed.
+  * The colour I selected for the footer and header is rgb(92, 181, 172). I originally had a darker shade of this colour but when I tested it on [wave](wave.webaim.org) which is an accessibility tool for the web, the colour and text contrasts were displaying an error. I changed to rgb(92, 181, 172) and tested again and no errors showed.
   The other colours displayed on the site are whitesmoke and black. The whitesmoke colour was chosen for the purpose of emphasising the foreground display. Black was used for all font colours and a black underline was used for the hover action on the displayed nav menu.
 
 * **Colour images**  
@@ -215,8 +215,24 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 
 * Gameplay
 
- 
+ * I tested the ganme multiple times with the aim of clicking on every option and viewing all possible outcomes to verify the game functioned as expected.
+  
+  * When rock was clicked and the bot selection was lizard or scissors a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed rock, a message appeared declaring the game turn a tie.
+  When the bot selection was paper or spock a message appeared delaring the bot the winner and the bot score was increased by one.
 
+  * When paper was clicked and the bot selection was rock or spock a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed paper, a message appeared declaring the game turn a tie.
+  When the bot selection was scissors or lizard a message appeared declaring the bot the winner and the bot score was increased by one.
+
+  * When scissors was clicked and the bot selection was paper or lizard a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed scissors, a message appeared declaring the game turn a tie.
+  When the bot selection was rock or spock a message appeared delaring the bot the winner and the bot score was increased by one.
+
+  * When lizard was clicked and the bot selection was spock or paper a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed lizard, a message appeared declaring the game turn a tie.
+  When the bot selection was scissors or rock a message appeared delaring the bot the winner and the bot score was increased by one.
+
+  * When spock was clicked and the bot selection was rock or scissors a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed spock, a message appeared declaring the game turn a tie.
+  When the bot selection was lizard or paper a message appeared delaring the bot the winner and the bot score was increased by one.
+
+* When the game score reached five for either the user or the bot a message was displayed showing the correct winner. The next turn then started a new game. These functions all operated as expected.
 <br>
 
 ## <u>**LightHouse**</u>
