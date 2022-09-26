@@ -22,7 +22,7 @@ The purpose of this game is to provide the user with an enjoyable game of chance
   * The value of the navigation bar and main heading are that they are identical on both pages to allow for easy navigation and create a good user experience.
 
 
-  ![Navigation bar](assets/images/header-hamburger-menu.png) 
+  ![Navigation bar](assets/images/header-menu.png) 
 
 
   * **Main page**
@@ -30,7 +30,7 @@ The purpose of this game is to provide the user with an enjoyable game of chance
     * On arrival to the website the user will be instantly viewing the game itself. The home page displays the game itself central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game itself are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes while playing the game. The box below the combatant boxes tells the user who has won after each turn and then when the winning score is reached, it will display a message stating who is the overall winner. The same box allows the user to see the winning score required to win the game before the first game is initiated. I have also included text telling the user to check the menu for the rules and where to click to begin the game. I included these three lines of text so that the purpose of the game is immediately evident to the user.
 
 
-    ![Main Page](assets/images/game-layout-image.png)
+    ![Main Page](assets/images/main-page.png)
 
 
    * **Footer** 
@@ -46,7 +46,7 @@ The purpose of this game is to provide the user with an enjoyable game of chance
      * The only other page attached to this website containts the rules of the game. The rules are defined here as the result of any choice the user makes. I gave consideration to displaying the rules on the main page and keeping the content to a single page however I came to the decision that this would have a negative impact on user experience on smaller devices such as mobile phones due to scrolling up and down. The design is intented to be just a simple set of rules that are easy to read and are not distracted by any background images.
 
 
-     ![Rules of the game](assets/images/rules-page-image.png)
+     ![Rules of the game](assets/images/rules-page.png)
   
 
 ### **Initial Discussion**
@@ -257,9 +257,9 @@ The following images in this section are displayed as lighthouse desktop as the 
 
 1. The first lighthouse scores for performance on mobile was 76 and 92 on desktop. I improved this score to the figures displayed below by optimising all of my images and changing the format to webp using ezgif.com. The accessibility score was 91 for this page. This was due to the buttons not having a means of identification by screen readers. I improved this score to the score displayed below by adding aria-labels to the buttons. 
 
-![Lighthouse Main desktop score]()
+![Lighthouse Main desktop score](assets/images/main-page-lighthouse-desktop.png)
 
-![Lighthouse Main mobile score]()
+![Lighthouse Main mobile score](assets/images/main-page-lighthouse-mobile.png)
 <br>
 
 ### **Rules Page**
@@ -267,13 +267,11 @@ The following images in this section are displayed as lighthouse desktop as the 
 The following images in this section are displayed as lighthouse desktop as the first image and lighthouse mobile as the second image.
 <br>
 
-1. original score.
+1. The rules page has only background colour and no images so the lighthouse scores have been as displayed below from the beginning fo building this project.
 
-2. improved score.
+![Lighthouse Rules desktop score](assets/images/rules-lighthouse-desktop.png)
 
-![Lighthouse Rules desktop score]()
-
-![Lighthouse Rules mobile score]()
+![Lighthouse Rules mobile score](assets/images/rules-lighthouse-mobile.png)
 <br>
 
 ## <u>**Deployment and Local Development**</u>
@@ -326,7 +324,7 @@ To clone the Rock/Paper/Scissors/Lizard/Spock repository:
 
   * The icon/image for the hamburger menu was taken from [icon-libarary.com](https://icon-library.com/).
   * The images for the five game choices were downloaded from [icon-libarary.com](https://icon-library.com/).
-  * The images for the bot and user images were downloaded from [pixabay](https://pixabay.com/images/search/avatar/)
+  * The images for the bot and user images were downloaded from [pixabay](https://pixabay.com/images/search/avatar/).
   * The images on this site were changed from there original settings using [ezgif.com](https://ezgif.com/).
   * The font for this page was set using [googlefonts.com](https://fonts.google.com/). 
   * The alt and aria-label attributes were tested using [NVaccess.org](https://www.nvaccess.org/download/).
@@ -337,6 +335,14 @@ To clone the Rock/Paper/Scissors/Lizard/Spock repository:
 <br>
 
   ### **Acknowledgments**
+
+   I would like to thank the following people who gave up their time to help me in completing this website.
+
+    * Antonio Rodriguez - My Mentor who offered his help both by appointments and outside appointment hours and never failed to point me in the right direction when I was struggling to find solutions to existing bugs. He also helepd keep me motivated in my initial struggles with javaScript.
+
+    * Code Institute Tutors - For assisting me with various issues throughout the project and never failing to point me in the right direction.
+
+    * Slack community - For helping me with various problems I have had during the build of this project.
 
  
 
