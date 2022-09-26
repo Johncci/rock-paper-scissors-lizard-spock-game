@@ -2,15 +2,17 @@
 
 
 ## <U>**Introduction**</U>
-I first became aware of the game like a lot of people when I viewed it on an episode of the american comedy show 'The Big Bang Theory'. The game is based on the original game of chance named Rock, Paper Scissors. This game adds two extra options named 'lizard' and 'spock'. Each image is assigned a hand signal which represents the option the user chooses. Each option can either win, lose or draw depending on the option the opponent chooses. It is essentially a simple game of chance. The website I have created allows the user to play against a bot until a winning score is reached. To view the full website please click on the following link diplayed below.
+I first became aware of the game when I viewed it on an episode of the american comedy show 'The Big Bang Theory'. The game is based on the original game of chance named Rock, Paper, Scissors. This game adds two extra options named 'lizard' and 'spock'. Each image is assigned a hand signal which represents the option the user chooses. Each option can either win, lose or draw depending on the option the opponent chooses. It is essentially a simple game of chance. The website I have created allows the user to play against a bot until a winning score is reached. To view the full website please click on the following link displayed below.
 
+
+![Am I responsive website image](assets/images/am-i-responsive.png)
 
 [View Rock Paper Scissors Lizard Spock on Github Pages]()
 
 
 ## <u>**Design Goals**</u> ##
 
-The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winners of each round is also displayed for the user. The overall design of the page including game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galatical objects have a relationship to both spock and the american show the Big Bang Theory where was when the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll when they started playing so the scores downto the bottom option remain visable on the screen when playing. This applies mainly to smaller screens.
+The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winner of each round is also displayed for the user. The overall design of the page including the game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galactical objects because have a relationship to both spock and the american show the Big Bang Theory where was when the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll when they started playing so that from the scores down to the bottom options remain visable on the screen while playing. This applies mainly to smaller screens.
 
 
 ## <u>**Design Features**</u> ##
@@ -27,7 +29,8 @@ The purpose of this game is to provide the user with an enjoyable game of chance
 
   * **Main page**
 
-    * On arrival to the website the user will be instantly viewing the game itself. The home page displays the game itself central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game itself are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes while playing the game. The box below the combatant boxes tells the user who has won after each turn and then when the winning score is reached, it will display a message stating who is the overall winner. The same box allows the user to see the winning score required to win the game before the first game is initiated. I have also included text telling the user to check the menu for the rules and where to click to begin the game. I included these three lines of text so that the purpose of the game is immediately evident to the user.
+    * On arrival to the website the user will be instantly viewing the game itself. The home page displays the game central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes while playing the game.
+    The box below the combatant boxes tells the user who has won after each turn and then when the winning score is reached, it will display a message stating who is the overall winner. The same box allows the user to see the winning score required to win the game before the first game is initiated. I have also included text telling the user to check the menu for the rules and where to click to begin the game. I included these three lines of text so that the purpose of the game is immediately evident to the user.
 
 
     ![Main Page](assets/images/main-page.png)
@@ -43,7 +46,7 @@ The purpose of this game is to provide the user with an enjoyable game of chance
 
    * **Rules page**
 
-     * The only other page attached to this website containts the rules of the game. The rules are defined here as the result of any choice the user makes. I gave consideration to displaying the rules on the main page and keeping the content to a single page however I came to the decision that this would have a negative impact on user experience on smaller devices such as mobile phones due to scrolling up and down. The design is intented to be just a simple set of rules that are easy to read and are not distracted by any background images.
+     * The only other page attached to this website contains the rules of the game. The rules are defined here as the result of any choice the user makes. I gave consideration to displaying the rules on the main page and keeping the content to a single page however I came to the decision that this would have a negative impact on user experience on smaller devices such as mobile phones due to scrolling up and down. The design is intented to be just a simple set of rules that are easy to read and are not distracted by any background images.
 
 
      ![Rules of the game](assets/images/rules-page.png)
@@ -51,7 +54,7 @@ The purpose of this game is to provide the user with an enjoyable game of chance
 
 ### **Initial Discussion**
 
-The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use by all ages. The website is intended to have a simple layout which only provides the information required to play the game. The intention was to design a layout that is eye catching to the user and is not a distraction from the game itself. The user and bot images are simple blacklines with a background image so as to provide a positive response when the box is populated by a user choice which then also selects a bot choice.
+Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use by all ages. The website is intended to have a simple layout which only provides the information required to play the game. The intention was to design a layout that is eye catching to the user and is not a distraction from the game itself. The user and bot images are simple blacklines with a background image so as to provide a positive response when the box is populated by a user choice which then also selects a bot choice.
 
 <br>
 
@@ -219,7 +222,7 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
 
 * Gameplay
 
- * I tested the game multiple times with the aim of clicking on every option and viewing all possible outcomes to verify the game functioned as expected.
+  * I tested the game multiple times with the aim of clicking on every option and viewing all possible outcomes to verify the game functioned as expected.
   
   * When rock was clicked and the bot selection was lizard or scissors a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed rock, a message appeared declaring the game turn a tie.
   When the bot selection was paper or spock a message appeared delaring the bot the winner and the bot score was increased by one.
@@ -236,7 +239,7 @@ The Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for 
   * When spock was clicked and the bot selection was rock or scissors a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed spock, a message appeared declaring the game turn a tie.
   When the bot selection was lizard or paper a message appeared delaring the bot the winner and the bot score was increased by one.
 
-* When the game score reached five for either the user or the bot a message was displayed showing the correct winner. The next turn then started a new game. These functions all operated as expected.
+  * When the game score reached five for either the user or the bot a message was displayed showing the correct winner. The next turn then started a new game. These functions all operated as expected.
 <br>
 
 ## <u>**LightHouse**</u>
