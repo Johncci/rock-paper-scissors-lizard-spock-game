@@ -103,9 +103,9 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
   * I want to return to this site multiple times to continue to try better my previous best winning margin. 
 
 
-## **Initial Discussion**
+## **Wireframes**
 
- * The following images are the wireframe created for the main page and the rules page. I gave consideration to using a wireframe tool but instead I opted to wireframe the game using pencil and paper. The design is relatively simple and only one page required more than a single box so this is my reasoning behind using this method.
+ The following images are the wireframe created for the main page and the rules page. I gave consideration to using a wireframe tool but instead I opted to wireframe the game using pencil and paper. The design is relatively simple and only one page required more than a single box so this is my reasoning behind using this method.
 
  * **Main Page**
 
@@ -119,8 +119,9 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
 * **Colour Scheme**
 
-  * The colour I selected for the footer and header is rgb(92, 181, 172). I originally had a darker shade of this colour but when I tested it on [wave](https://wave.webaim.org/) which is an accessibility tool for the web, the text and text contrast was insufficent and was displaying an error. I selected this colour because it is closely related to the colour displayed inside the downloaded game option images. I chose this colour from [W3Schools](https://www.w3schools.com/colors/colors_rgb.asp) RGB calculator. I changed to rgb(92, 181, 172) and tested again and no errors were displayed.
-  The other colours displayed on the site are whitesmoke and black. The whitesmoke colour was chosen for the purpose of emphasising the foreground display. Black was used for all font colours and a black underline was used for the hover action on the displayed nav menu.
+  * The colour I selected for the footer and header is rgb(92, 181, 172). I originally had a darker shade of this colour but when I tested it on [wave](https://wave.webaim.org/) which is an accessibility tool for the web, the contrast between the text and the background colours on the header and footer was insufficent and was displaying an error. I selected this colour because it is closely related to the colour displayed inside the downloaded game option images. I selected this colour from [W3Schools](https://www.w3schools.com/colors/colors_rgb.asp) RGB calculator. I changed to rgb(92, 181, 172) and tested again and no errors were displayed.
+
+  The other colours displayed on the site are whitesmoke and black. The whitesmoke colour was chosen for the purpose of emphasising the foreground display. Black was used for all font colours and a black underline was used for the hover action on the displayed nav menu. They are basic colours at each of end of the colour spectrum but I felt they perfectly suited this project.
 
 * **Colour images**  
 
@@ -151,7 +152,11 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
   * Using alt attributes with images on the site or aria-labels in the cases where the images were placed in the CSS file. The method of achieving this is displayed in the credits of this readme.md file.
 
-  * Ensuring sufficent colour contrast throughout the site. This was ensured by testing the website on [wave](https://wave.webaim.org/). 
+  * Ensuring sufficent colour contrast throughout the site. This was ensured by testing the website on [wave](https://wave.webaim.org/). The two links below are the results of these tests.
+
+  [Main page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io/)
+
+  [Rules page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io/rules.html)
 
 <br>
 
@@ -204,6 +209,8 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 ## <U>**javaScript Testing**</U>
 
 [JSHint](https://jshint.com/) was used to check the functionality of the javaScript code. No significant issues recorded. The JQuery declarations were not recognoised and shown as undefined variables as jShint only reads core javaScript.
+
+![JShint testing](assets/images/js-hint-image.png)
 <br>
 
 ## **Final Testing User Goals** 
