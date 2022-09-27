@@ -12,7 +12,7 @@ I first became aware of the game when I viewed it on an episode of the american 
 
 ## <u>**Design Goals**</u> ##
 
-The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winner of each round is also displayed for the user. The overall design of the page including the game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galactical objects because have a relationship to both spock and the american show the Big Bang Theory where was when the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll when they started playing so that from the scores down to the bottom options remain visable on the screen while playing. This applies mainly to smaller screens.
+The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winner of each round is also displayed for the user. The overall design of the page including the game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galactical objects because have a relationship to both spock and the american show the Big Bang Theory where the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll when they started playing so that from the scores down to the bottom options remain visable on the screen durinf gameplay. This applies mainly to smaller screens.
 
 
 ## <u>**Design Features**</u> ##
@@ -30,7 +30,7 @@ The purpose of this game is to provide the user with an enjoyable game of chance
   * **Main page**
 
     * On arrival to the website the user will be instantly viewing the game itself. The home page displays the game central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes while playing the game.
-    The box below the combatant boxes tells the user who has won after each turn and then when the winning score is reached, it will display a message stating who is the overall winner. The same box allows the user to see the winning score required to win the game before the first game is initiated. I have also included text telling the user to check the menu for the rules and where to click to begin the game. I included these three lines of text so that the purpose of the game is immediately evident to the user.
+    The box below the combatant boxes tells the user who has won after each turn and then when the winning score is reached, it will display a message stating who is the overall winner. The same box allows the user to see the winning score required to win the game before the first game is initiated. I have also included text telling the user to check the menu for the rules and where to click to begin the game. I included these three lines of text so that the purpose of the game can immediately become evident to the user.
 
 
     ![Main Page](assets/images/main-page.png)
@@ -52,7 +52,7 @@ The purpose of this game is to provide the user with an enjoyable game of chance
      ![Rules of the game](assets/images/rules-page.png)
   
 
-### **Initial Discussion**
+## **Initial Discussion**
 
 Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use by all ages. The website is intended to have a simple layout which only provides the information required to play the game. The intention was to design a layout that is eye catching to the user and is not a distraction from the game itself. The user and bot images are simple blacklines with a background image so as to provide a positive response when the box is populated by a user choice which then also selects a bot choice.
 
@@ -103,7 +103,7 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
   * I want to return to this site multiple times to continue to try better my previous best winning margin. 
 
 
-* **Wireframes**
+## **Initial Discussion**
 
  * The following images are the wireframe created for the main page and the rules page. I gave consideration to using a wireframe tool but instead I opted to wireframe the game using pencil and paper. The design is relatively simple and only one page required more than a single box so this is my reasoning behind using this method.
 
@@ -119,12 +119,16 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
 * **Colour Scheme**
 
-  * The colour I selected for the footer and header is rgb(92, 181, 172). I originally had a darker shade of this colour but when I tested it on [wave](https://wave.webaim.org/) which is an accessibility tool for the web, the text and text contrast was insufficent and was displaying an error. I changed to rgb(92, 181, 172) and tested again and no errors were displayed.
+  * The colour I selected for the footer and header is rgb(92, 181, 172). I originally had a darker shade of this colour but when I tested it on [wave](https://wave.webaim.org/) which is an accessibility tool for the web, the text and text contrast was insufficent and was displaying an error. I selected this colour because it is closely related to the colour displayed inside the downloaded game option images. I chose this colour from [W3Schools](https://www.w3schools.com/colors/colors_rgb.asp) RGB calculator. I changed to rgb(92, 181, 172) and tested again and no errors were displayed.
   The other colours displayed on the site are whitesmoke and black. The whitesmoke colour was chosen for the purpose of emphasising the foreground display. Black was used for all font colours and a black underline was used for the hover action on the displayed nav menu.
 
 * **Colour images**  
 
+![Main colour style](assets/images/main-background-colour.png)
 
+![secondary colour style](assets/images/background-colour.png)
+
+![Font colour style](assets/images/font-underline-colour.png)
 
 <br>
 
