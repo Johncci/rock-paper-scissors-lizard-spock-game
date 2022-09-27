@@ -121,7 +121,7 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
   * The colour I selected for the footer and header is rgb(92, 181, 172). I originally had a darker shade of this colour but when I tested it on [wave](https://wave.webaim.org/) which is an accessibility tool for the web, the contrast between the text and the background colours on the header and footer was insufficent and was displaying an error. I selected this colour because it is closely related to the colour displayed inside the downloaded game option images. I selected this colour from [W3Schools](https://www.w3schools.com/colors/colors_rgb.asp) RGB calculator. I changed to rgb(92, 181, 172) and tested again and no errors were displayed.
 
-  The other colours displayed on the site are whitesmoke and black. The whitesmoke colour was chosen for the purpose of emphasising the foreground display. Black was used for all font colours and a black underline was used for the hover action on the displayed nav menu. They are basic colours at each of end of the colour spectrum but I felt they perfectly suited this project.
+  * The other colours displayed on the site are whitesmoke and black. The whitesmoke colour was chosen for the purpose of emphasising the foreground display. Black was used for all font colours and a black underline was used for the hover action on the displayed nav menu. They are basic colours at each of end of the colour spectrum but I felt they perfectly suited this project.
 
 * **Colour images**  
 
@@ -164,7 +164,7 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
 * The following technologies were used and implemented in the construction and design of this website.
 
-  * HTML and CSS - To create this website.
+  * HTML, javaScript and CSS - To create this website.
 
   * Git - For version control.
 
@@ -177,15 +177,19 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
   * Am I Responsive? - To show the website image on a range of devices.
 
   * NVaccess.org - To test the alt and aria-label attributes.
+
+  * Wave.webaim.org - To test accessibility of the website.
 <br>
 
 ## <U>**Testing and Bugs**</U>
 
-* Testing was an ongoing process from the start to the finish of the build. I used a chrome developer tools to assist me in solving problems as I progressed through the project. I encountered the following build issues and bugs as I progressed through the project.
+* Testing was an ongoing process from the start to the finish of the build. I used chrome developer tools to assist me in solving problems as I progressed through the project. I encountered the following build issues and bugs as I progressed through the project.
 
  * The hamburger menu would not perform as expected. The contained nav bar was intended to display central when clicked but it displayed at the top of the opened box. I corrected this by targetting the css through javaScript and had it display as a flex property.
 
- * The hamburger menu also needed to be double clicked to open on arrival to the page. I am still not aware of why this was happening ,however after changing core javaScript to JQuery this problem was resolved and it now opens with a single click
+ * The hamburger menu also needed to be double clicked to open on arrival to the page, after it was clicked the first time it would respond to a single click and operate as expected. I am still not aware of why this was happening ,however after changing core javaScript to JQuery this problem was resolved and it now opens with a single click. This is no longer an issue for the functionality of my website but I have attached an image of the unfixed bug below.
+
+ ![JavaScript unfixed bug](assets/images/js-unfixed-bug.png)
 
  * During the course of building this website, I was focused on testing responsiveness by decreasing the screen width and then adjusting the media queries accordingly. It was only near the end of the build that I turned my phone to auto rotate and observed that the main content was overflowing into the heading and the footer when the screen was horizontal. I experimented with padding and margin styles to try resolve this problem but was unsuccessful. I eventually solved the problem by simply applying a min-height to the main-content div which holds the main background image.
 
@@ -327,7 +331,7 @@ To clone the Rock/Paper/Scissors/Lizard/Spock repository:
 
 ### **Content**
 
-  * I began this project using float properties but I then learned of an easier way to position items using flex. I learned how to apply [Flex Positioning](https://www.w3schools.com/css/css3_flexbox.asp) at W3C schools.
+  * The method I used to position items as by using flex. I learned how to apply [Flex Positioning](https://www.w3schools.com/css/css3_flexbox.asp) at W3C schools.
 
   * The javaScript library use for this website is jQuery and I learned how to apply this library using [jQuery](https://www.w3schools.com/jquery/jquery_intro.asp) at W3Schools.
 
