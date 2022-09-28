@@ -12,7 +12,7 @@ I first became aware of the game when I viewed it on an episode of the american 
 
 ## <u>**Design Goals**</u> ##
 
-The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winner of each round is also displayed for the user. The overall design of the page including the game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galactical objects because have a relationship to both spock and the american show the Big Bang Theory where the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll when they started playing so that from the scores down to the bottom options remain visable on the screen durinf gameplay. This applies mainly to smaller screens.
+The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winner of each round is also displayed for the user. The overall design of the page including the game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galactical objects because it has a relationship to both spock and the american show the Big Bang Theory where the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll up or down when they started playing so the scores down to the gameplay options remain visable on the screen during gameplay. This applies mainly to smaller screens.
 
 
 ## <u>**Design Features**</u> ##
@@ -27,26 +27,26 @@ The purpose of this game is to provide the user with an enjoyable game of chance
   ![Navigation bar](assets/images/header-menu.png) 
 
 
-  * **Main page**
+* **Main page**
 
-    * On arrival to the website the user will be instantly viewing the game itself. The home page displays the game central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes while playing the game.
-    The box below the combatant boxes tells the user who has won after each turn and then when the winning score is reached, it will display a message stating who is the overall winner. The same box allows the user to see the winning score required to win the game before the first game is initiated. I have also included text telling the user to check the menu for the rules and where to click to begin the game. I included these three lines of text so that the purpose of the game can immediately become evident to the user.
+  * On arrival to the website the user will be instantly viewing the game itself. The home page displays the game central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes during gameplay.
+  The box below the combatant boxes tells the user who has won after each turn and then when the winning score is reached, it will display a message stating who is the overall winner. The same box allows the user to see the winning score required to win the game before the first game is initiated. I have also included text telling the user to check the menu for the rules and where to click to begin the game. I included these three lines of text so that getting started and the purpose of the game can immediately become evident to the user.
 
 
     ![Main Page](assets/images/main-page.png)
 
 
-   * **Footer** 
+* **Footer** 
 
-     * The footer is a simple design which remains consistent on both pages. Its only content is the copyright for the game.
+  * The footer is a simple design which remains consistent on both pages. Its only content is the copyright for the game.
 
 
    ![Footer containing copright for the game](assets/images/footer-image.png) 
 
 
-   * **Rules page**
+* **Rules page**
 
-     * The only other page attached to this website contains the rules of the game. The rules are defined here as the result of any choice the user makes. I gave consideration to displaying the rules on the main page and keeping the content to a single page however I came to the decision that this would have a negative impact on user experience on smaller devices such as mobile phones due to scrolling up and down. The design is intented to be just a simple set of rules that are easy to read and are not distracted by any background images.
+  * The only other page attached to this website contains the rules of the game. The rules are defined here as the result of any choice the user makes. I gave consideration to displaying the rules on the main page and keeping the content to a single page however I came to the decision that this would have a negative impact on user experience on smaller devices such as mobile phones due to having to scrolling up and down. The design is intented to be just a simple set of rules that are easy to read and are not distracted by any background images.
 
 
      ![Rules of the game](assets/images/rules-page.png)
@@ -65,7 +65,7 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
   * How the user wins or loses each turn.
   * How many points to win the game.
   * What happens when the user wins the game.
-  * what happens when the bot wins the game. 
+  * What happens when the bot wins the game. 
   * Does the game reset after the required winning score is reached.
 
 <br>
@@ -73,7 +73,7 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 * **Client Goals**
 
   * To be able to view the site on a range of devices including a smartphone, a tablet and a laptop.
-  * To make the site informative without having too much information to allow users to easily see the essential details.
+  * To make the site informative without having to much information to allow users to easily see the essential details.
   * To provide easy navigation throughout the site so users can easily navigate to and from both pages.
   * To allow quick and easy gameplay.
   * To display a winner and loser at the end of each completed game.
@@ -119,7 +119,7 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
 * **Colour Scheme**
 
-  * The colour I selected for the footer and header is rgb(92, 181, 172). I originally had a darker shade of this colour but when I tested it on [wave](https://wave.webaim.org/) which is an accessibility tool for the web, the contrast between the text and the background colours on the header and footer was insufficent and was displaying an error. I selected this colour because it is closely related to the colour displayed inside the downloaded game option images. I selected this colour from [W3Schools](https://www.w3schools.com/colors/colors_rgb.asp) RGB calculator. I changed to rgb(92, 181, 172) and tested again and no errors were displayed.
+  * The colour I selected for the footer and header is rgb(92, 181, 172). I originally had a darker shade of this colour but when I tested it on [wave](https://wave.webaim.org/) which is an accessibility tool for the web, the contrast between the text and the background colours on the header and footer was insufficent and that casued an error to be displayed. I selected this colour because it is closely related to the colour displayed inside the downloaded game option images. I selected this colour from [W3Schools](https://www.w3schools.com/colors/colors_rgb.asp) RGB calculator. I changed to rgb(92, 181, 172) and tested again and no errors were displayed.
 
   * The other colours displayed on the site are whitesmoke and black. The whitesmoke colour was chosen for the purpose of emphasising the foreground display. Black was used for all font colours and a black underline was used for the hover action on the displayed nav menu. They are basic colours at each of end of the colour spectrum but I felt they perfectly suited this project.
 
@@ -135,9 +135,9 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
 * **Font-family**
 
-  * Roboto was used for the headings and copyright on the site. It is a Sans-Serif font. The back up font selected was San-Serif.
+  * Roboto is used for the headings and copyright on the site. It is a Sans-Serif font. The back up font selected is San-Serif.
 
-  * Lato was used for the body of the site. It is also a Sans-Serif font. The back up font selected was Sans-Serif.
+  * Lato is used for the body of the site. It is also a Sans-Serif font. The back up font selected is Sans-Serif.
 
 * **Imagery**
 
@@ -183,9 +183,9 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
 ## <U>**Testing and Bugs**</U>
 
-* Testing was an ongoing process from the start to the finish of the build. I used chrome developer tools to assist me in solving problems as I progressed through the project. I encountered the following build issues and bugs as I progressed through the project.
+* Testing was an ongoing process from the start to the finish of the project build. I used chrome developer tools to assist me in solving problems as I progressed through the project. I encountered the following build issues and bugs as I progressed through the project.
 
- * The hamburger menu would not perform as expected. The contained nav bar was intended to display central when clicked but it displayed at the top of the opened box. I corrected this by targetting the css through javaScript and had it display as a flex property.
+ * The hamburger menu would not perform as expected. The contained nav bar was intended to display central when clicked but it displayed at the top of the opened box. I corrected this by targetting the css through javaScript and had it display as a centered flex property.
 
  * The hamburger menu also needed to be double clicked to open on arrival to the page, after it was clicked the first time it would respond to a single click and operate as expected. I am still not aware of why this was happening ,however after changing core javaScript to JQuery this problem was resolved and it now opens with a single click. This is no longer an issue for the functionality of my website but I have attached an image of the unfixed bug below.
 
@@ -193,7 +193,7 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
  * During the course of building this website, I was focused on testing responsiveness by decreasing the screen width and then adjusting the media queries accordingly. It was only near the end of the build that I turned my phone to auto rotate and observed that the main content was overflowing into the heading and the footer when the screen was horizontal. I experimented with padding and margin styles to try resolve this problem but was unsuccessful. I eventually solved the problem by simply applying a min-height to the main-content div which holds the main background image.
 
- * I encountered some issues with restting the game when the winning score was reached. I originally used a method where the page actually reloaded when the winning score was reached using reload and clearInterval functions which I found on the website [mdn web docs](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up). This worked to reset the game except the final message displaying the winner was displayed and then reset too quickly for the user to read. I resolved this by adding a simple function to the winning botscore and userscore and deleting my previous reset method.
+ * I encountered some issues with resetting the game when the winning score was reached. I originally used a method where the page reloaded when the winning score was reached using reload and clearInterval functions which I found on the website [mdn web docs](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up). This worked to reset the game except the final message displaying the winner was displayed and then reset too quickly for the user to read. I resolved this by adding a simple function to the winning botscore and userscore and deleted my previous reset method.
 
  ## <U>**W3C Validator**</U>
 
@@ -212,7 +212,7 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
 ## <U>**javaScript Testing**</U>
 
-[JSHint](https://jshint.com/) was used to check the functionality of the javaScript code. No significant issues recorded. The JQuery declarations were not recognoised and shown as undefined variables as jShint only reads core javaScript.
+[JSHint](https://jshint.com/) was used to check the functionality of the javaScript code. No significant issues recorded. The JQuery declarations were not recognoised and shown as undefined variables. The reason for this is jShint only reads core javaScript.
 
 ![JShint testing](assets/images/js-hint-image.png)
 <br>
@@ -239,22 +239,22 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
   * I tested the game multiple times with the aim of clicking on every option and viewing all possible outcomes to verify the game functioned as expected.
   
-  * When rock was clicked and the bot selection was lizard or scissors a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed rock, a message appeared declaring the game turn a tie.
+  * When rock was clicked and the bot selection was lizard or scissors, a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed rock, a message appeared declaring the game turn a tie.
   When the bot selection was paper or spock a message appeared delaring the bot the winner and the bot score was increased by one.
 
   * When paper was clicked and the bot selection was rock or spock a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed paper, a message appeared declaring the game turn a tie.
   When the bot selection was scissors or lizard a message appeared declaring the bot the winner and the bot score was increased by one.
 
-  * When scissors was clicked and the bot selection was paper or lizard a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed scissors, a message appeared declaring the game turn a tie.
+  * When scissors was clicked and the bot selection was paper or lizard, a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed scissors, a message appeared declaring the game turn a tie.
   When the bot selection was rock or spock a message appeared delaring the bot the winner and the bot score was increased by one.
 
-  * When lizard was clicked and the bot selection was spock or paper a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed lizard, a message appeared declaring the game turn a tie.
+  * When lizard was clicked and the bot selection was spock or paper, a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed lizard, a message appeared declaring the game turn a tie.
   When the bot selection was scissors or rock a message appeared delaring the bot the winner and the bot score was increased by one.
 
-  * When spock was clicked and the bot selection was rock or scissors a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed spock, a message appeared declaring the game turn a tie.
+  * When spock was clicked and the bot selection was rock or scissors, a message was displayed declaring the user the winner and the score increased by one for the user. When the bot also displayed spock, a message appeared declaring the game turn a tie.
   When the bot selection was lizard or paper a message appeared delaring the bot the winner and the bot score was increased by one.
 
-  * When the game score reached five for either the user or the bot a message was displayed showing the correct winner. The next turn then started a new game. These functions all operated as expected.
+  * When the game score reached five for either the user or the bot, a message was displayed showing the correct winner. The next turn then started a new game. These functions all operated as expected.
 <br>
 
 ## <u>**LightHouse**</u>
@@ -299,7 +299,7 @@ The following images in this section are displayed as lighthouse desktop as the 
 The live website was deployed by following the instructions below. Github pages was used to achieve this.
 
   1. Log in to GitHub.
-  2. Find the repository named summer-soccer-camp.
+  2. Find the repository named rock-paper-scissors-lizard-spock.
   3. click on the settings link.
   4. Once in settings, navigate to the pages tab on the side menu.
   5. Under source, Select the branch to main, then click save.
@@ -308,16 +308,16 @@ The live website was deployed by following the instructions below. Github pages 
 
   ### **Local Development**
 
-To fork the Rock/Paper/Scissors/Lizard/Spock repository:
+To fork the Rock-Paper-Scissors-Lizard-Spock repository:
 
   1. Log in to GitHub.
-  2. Go to the repository for this project, johncci/Rock/Paper/Scissors/Lizard/Spock game.
+  2. Go to the repository for this project, johncci/rock-paper-scissors-lizard-spock game.
   3. Click the fork button located near the top right corner of the page.
 <br>
 
-To clone the Rock/Paper/Scissors/Lizard/Spock repository:
+To clone the Rock-Paper-Scissors-Lizard-Spock repository:
   1. Log in (or sign up) to GitHub.
-  2. Go to the repository for this project, johncci/Rock/Paper/Scissors/Lizard/Spock game.
+  2. Go to the repository for this project, johncci/rock-paper-scissors-lizard-spock game.
   3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
   4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
   5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -331,7 +331,7 @@ To clone the Rock/Paper/Scissors/Lizard/Spock repository:
 
 ### **Content**
 
-  * The method I used to position items as by using flex. I learned how to apply [Flex Positioning](https://www.w3schools.com/css/css3_flexbox.asp) at W3C schools.
+  * The method I used to position items is by using flex. I learned how to apply [Flex Positioning](https://www.w3schools.com/css/css3_flexbox.asp) at W3C schools.
 
   * The javaScript library use for this website is jQuery and I learned how to apply this library using [jQuery](https://www.w3schools.com/jquery/jquery_intro.asp) at W3Schools.
 
@@ -356,11 +356,11 @@ To clone the Rock/Paper/Scissors/Lizard/Spock repository:
 
    I would like to thank the following people who gave up their time to help me in completing this website.
 
-    * Antonio Rodriguez - My Mentor who offered his help both by appointments and outside appointment hours and never failed to point me in the right direction when I was struggling to find solutions to existing bugs. He also helepd keep me motivated in my initial struggles with javaScript.
+  * Antonio Rodriguez - My Mentor who offered his help both by appointments and outside appointment hours and never failed to point me in the right direction when I was struggling to find solutions to existing bugs. He also helped keep me motivated in my initial struggles with javaScript.
 
-    * Code Institute Tutors - For assisting me with various issues throughout the project and never failing to point me in the right direction.
+  * Code Institute Tutors - For assisting me with various issues throughout the project and never failing to point me in the right direction.
 
-    * Slack community - For helping me with various problems I have had during the build of this project.
+  * Slack community - For helping me with various problems I have had during the build of this project.
 
  
 
