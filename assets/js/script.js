@@ -136,7 +136,6 @@ $(document).ready(function () {
                 userScore++;
                 outcome.text("You scored a point!");
             }
-
         }
 
         if (userChoice == options.SCISSORS) {
@@ -176,7 +175,6 @@ $(document).ready(function () {
         userWins();
         botWins();
         endGame();
-
 
     }
 
@@ -232,7 +230,6 @@ $(document).ready(function () {
                 return "assets/images/spock.option.webp";
             default:
                 return "";
-
 
         }
     }

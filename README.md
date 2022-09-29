@@ -2,7 +2,7 @@
 
 
 ## <U>**Introduction**</U>
-I first became aware of the game when I viewed it on an episode of the american comedy show 'The Big Bang Theory'. The game is based on the original game of chance named Rock, Paper, Scissors. This game adds two extra options named 'lizard' and 'spock'. Each image is assigned a hand signal which represents the option the user chooses. Each option can either win, lose or draw depending on the option the opponent chooses. It is essentially a simple game of chance. The website I have created allows the user to play against a bot until a winning score is reached. To view the full website please click on the following link displayed below.
+I first became aware of this game when I viewed it on an episode of the american comedy show 'The Big Bang Theory'. The game is based on the original game of chance named Rock, Paper, Scissors. This game adds two extra options referred to as 'lizard' and 'spock'. Each image is assigned a hand signal which represents the option the user chooses. Each option can either win, lose or draw depending on the option the opponent chooses. It is essentially a simple game of chance. The website I have created allows the user to play against a bot until a winning score is reached. To view the full website please click on the following link displayed below.
 
 
 ![Am I responsive website image](assets/images/am-i-responsive.png)
@@ -12,7 +12,7 @@ I first became aware of the game when I viewed it on an episode of the american 
 
 ## <u>**Design Goals**</u> ##
 
-The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winner of each round is also displayed for the user. The overall design of the page including the game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galactical objects because it has a relationship to both spock and the american show the Big Bang Theory where the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll up or down when they started playing so the scores down to the gameplay options remain visable on the screen during gameplay. This applies mainly to smaller screens.
+The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winner of each round is also displayed for the user. The overall design of the page including the game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galactical objects because it has a relationship to both spock and the american show the Big Bang Theory where the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll up or down when they started playing so the scores down to the gameplay options remain visable on the screen during gameplay. This will apply mainly to smaller screens.
 
 
 ## <u>**Design Features**</u> ##
@@ -29,7 +29,8 @@ The purpose of this game is to provide the user with an enjoyable game of chance
 
 * **Main page**
 
-  * On arrival to the website the user will be instantly viewing the game itself. The home page displays the game central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes during gameplay.
+  * On arrival to the website the user will be instantly viewing the game they want to play. The home page displays the game central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes during gameplay.
+
   The box below the combatant boxes tells the user who has won after each turn and then when the winning score is reached, it will display a message stating who is the overall winner. The same box allows the user to see the winning score required to win the game before the first game is initiated. I have also included text telling the user to check the menu for the rules and where to click to begin the game. I included these three lines of text so that getting started and the purpose of the game can immediately become evident to the user.
 
 
@@ -54,7 +55,7 @@ The purpose of this game is to provide the user with an enjoyable game of chance
 
 ## **Initial Discussion**
 
-Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use by all ages. The website is intended to have a simple layout which only provides the information required to play the game. The intention was to design a layout that is eye catching to the user and is not a distraction from the game itself. The user and bot images are simple blacklines with a background image so as to provide a positive response when the box is populated by a user choice which then also selects a bot choice.
+Rock-Paper-Scissors-Lizard-Spock is a simple and easy to play game intended for use by all ages. The website is intended to have a simple layout which only provides the information required to play the game. The intention was to design a layout that is eye catching to the user and is not a distraction from the game itself. The user and bot images are simple black outlines so as to provide a positive response when the box is populated by a user choice which in turn also selects a bot choice.
 
 <br>
 
@@ -84,9 +85,9 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 * **First Time Visitor Goals**
 
   * I want to view the rules of the game before playing.
-  * I want easy navigation from the game to the rules page and back again.
+  * I want easy navigation from the game page to the rules page and back again.
   * I want to see who wins and loses after each turn so I do not have to keep returning to the rules to understand what is   happening during gameplay.
-  * I want to have a clear message on the screen to inform me if I win or lose the game.
+  * I want to have a clear message as feedback on the screen to inform me if I win or lose the game.
   * I want the game to quickly reset so I can play again after completion of each game.
 
 <br>
@@ -183,7 +184,7 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
 ## <U>**Testing and Bugs**</U>
 
-* Testing was an ongoing process from the start to the finish of the project build. I used chrome developer tools to assist me in solving problems as I progressed through the project. I encountered the following build issues and bugs as I progressed through the project.
+Testing was an ongoing process from the start to the finish of the project build. I used chrome developer tools to assist me in solving problems as I progressed through the project. I encountered the following build issues and bugs as I progressed through the project.
 
  * The hamburger menu would not perform as expected. The contained nav bar was intended to display central when clicked but it displayed at the top of the opened box. I corrected this by targetting the css through javaScript and had it display as a centered flex property.
 

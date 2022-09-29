@@ -51,7 +51,6 @@ header>#menu {
     justify-content: center;
     background-color: rgb(92, 181, 172);
     border-radius: 10px;
-
 }
 
 #hamburger-icon {
@@ -284,8 +283,6 @@ footer .copyright {
         width: 150px;
         height: 30px
     }
-
-
 }
 
 @media screen and (min-width: 569px) {
