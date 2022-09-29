@@ -155,9 +155,9 @@ Rock-Paper-Scissors-Lizard-Spock is a simple and easy to play game intended for 
 
   * Ensuring sufficent colour contrast throughout the site. This was ensured by testing the website on [wave](https://wave.webaim.org/). The two links below are the results of these tests.
 
-  [Main page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io/)
+  [Main page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu69.gitpod.io/)
 
-  [Rules page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io/rules.html)
+  [Rules page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu69.gitpod.io/rules.html)
 
 <br>
 
@@ -188,20 +188,20 @@ Testing was an ongoing process from the start to the finish of the project build
 
  * The hamburger menu would not perform as expected. The contained nav bar was intended to display central when clicked but it displayed at the top of the opened box. I corrected this by targetting the css through javaScript and had it display as a centered flex property.
 
- * The hamburger menu also needed to be double clicked to open on arrival to the page, after it was clicked the first time it would respond to a single click and operate as expected. I am still not aware of why this was happening ,however after changing core javaScript to JQuery this problem was resolved and it now opens with a single click. This is no longer an issue for the functionality of my website but I have attached an image of the unfixed bug below.
+ * The hamburger menu also needed to be double clicked to open on arrival to the page, after it was clicked the first time it would respond to a single click and operate as expected. I am still not aware of why this was happening ,however after changing core javaScript to JQuery this problem was resolved and it now opens with a single click. This is no longer an issue for the functionality of my website as used a different method to display the hamburger menu but I have attached an image of the unfixed bug below.
 
  ![JavaScript unfixed bug](assets/images/js-unfixed-bug.png)
 
  * During the course of building this website, I was focused on testing responsiveness by decreasing the screen width and then adjusting the media queries accordingly. It was only near the end of the build that I turned my phone to auto rotate and observed that the main content was overflowing into the heading and the footer when the screen was horizontal. I experimented with padding and margin styles to try resolve this problem but was unsuccessful. I eventually solved the problem by simply applying a min-height to the main-content div which holds the main background image.
 
- * I encountered some issues with resetting the game when the winning score was reached. I originally used a method where the page reloaded when the winning score was reached using reload and clearInterval functions which I found on the website [mdn web docs](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up). This worked to reset the game except the final message displaying the winner was displayed and then reset too quickly for the user to read. I resolved this by adding a simple function to the winning botscore and userscore and deleted my previous reset method.
+ * I encountered some issues with resetting the game when the winning score was reached. I originally used a method where the page reloaded when the winning score was reached using reload and clear interval functions which I found on the website [mdn web docs](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up). This worked to reset the game except the final message displaying the winner was displayed and then reset too quickly for the user to read. I resolved this by adding a simple function to the winning botscore and userscore and deleted my previous reset method.
 
  ## <U>**W3C Validator**</U>
 
 * The W3C validator was used to to validate the html on all pages of this website. No errors were returned when passing through the W3C validator.
  
-  * [Main Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io%2Findex.html)
-  * [Rules Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io%2Frules.html)
+  * [Main Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu69.gitpod.io%2Findex.html%23home)
+  * [Rules Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu69.gitpod.io%2Frules.html)
   
 <br>
 
@@ -341,13 +341,13 @@ To clone the Rock-Paper-Scissors-Lizard-Spock repository:
 
 ### **Media**
 
-  * The icon/image for the hamburger menu was taken from [icon-libarary.com](https://icon-library.com/).
+  * The icon/image for the hamburger menu was downloaded from [icon-libarary.com](https://icon-library.com/).
   * The images for the five game choices were downloaded from [icon-libarary.com](https://icon-library.com/).
   * The images for the bot and user images were downloaded from [pixabay](https://pixabay.com/images/search/avatar/).
   * The images on this site were changed from there original settings using [ezgif.com](https://ezgif.com/).
   * The font for this page was set using [googlefonts.com](https://fonts.google.com/). 
   * The alt and aria-label attributes were tested using [NVaccess.org](https://www.nvaccess.org/download/).
-  * The accesibility of the website was checked using [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/)
+  * The accessibility of the website was checked using [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/).
   * The background image used in this website was downloaded from [freepik.com](https://www.freepik.com/search?format=search&query=space%20background).
 
   All media listed above was used with the permission of the owner.
@@ -361,7 +361,9 @@ To clone the Rock-Paper-Scissors-Lizard-Spock repository:
 
   * Code Institute Tutors - For assisting me with various issues throughout the project and never failing to point me in the right direction.
 
-  * Slack community - For helping me with various problems I have had during the build of this project.
+  * Slack community - For helping me with various problems I have had during the build of this project and for giving up there own time in providing this help. Its help that i always try to return if I can.
+
+  * Family - My wife and two kids who have been shown incredible patience as I spend my days in work and my nights studying.
 
  
 
