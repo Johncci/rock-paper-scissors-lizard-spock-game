@@ -7,7 +7,7 @@ I first became aware of this game when I viewed it on an episode of the american
 
 ![Am I responsive website image](assets/images/am-i-responsive.png)
 
-[View Rock Paper Scissors Lizard Spock on Github Pages]()
+[View Rock Paper Scissors Lizard Spock on Github Pages](https://johncci.github.io/rock-paper-scissors-lizard-spock-game/)
 
 
 ## <u>**Design Goals**</u> ##
@@ -155,9 +155,9 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
   * Ensuring sufficent colour contrast throughout the site. This was ensured by testing the website on [wave](https://wave.webaim.org/). The two links below are the results of these tests.
 
-  [Main page accessibility test]()
+  [Main page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io/index.html#home)
 
-  [Rules page accessibility test]()
+  [Rules page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io/rules.html)
 
 <br>
 
@@ -200,8 +200,8 @@ Testing was an ongoing process from the start to the finish of the project build
 
 * The W3C validator was used to to validate the html on all pages of this website. No errors were returned when passing through the W3C validator.
  
-  * [Main Page HTML]()
-  * [Rules Page HTML]()
+  * [Main Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io%2Findex.html%23home)
+  * [Rules Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io%2Frules.html)
   
 <br>
 
@@ -300,7 +300,7 @@ The following images in this section are displayed as lighthouse desktop as the 
 The live website was deployed by following the instructions below. Github pages was used to achieve this.
 
   1. Log in to GitHub.
-  2. Find the repository named rock-paper-scissors-lizard-spock.
+  2. Find the repository named rock-paper-scissors-lizard-spock-game.
   3. Click on the settings link.
   4. Once in settings, navigate to the pages tab on the side menu.
   5. Under source, Select the branch to main, then click save.
@@ -309,16 +309,16 @@ The live website was deployed by following the instructions below. Github pages 
 
   ### **Local Development**
 
-To fork the Rock-Paper-Scissors-Lizard-Spock repository:
+To fork the Rock-Paper-Scissors-Lizard-Spock-game repository:
 
   1. Log in to GitHub.
-  2. Go to the repository for this project, johncci/rock-paper-scissors-lizard-spock game.
+  2. Go to the repository for this project, johncci/rock-paper-scissors-lizard-spock-game.
   3. Click the fork button located near the top right corner of the page.
 <br>
 
-To clone the Rock-Paper-Scissors-Lizard-Spock repository:
+To clone the Rock-Paper-Scissors-Lizard-Spock-game repository:
   1. Log in (or sign up) to GitHub.
-  2. Go to the repository for this project, johncci/rock-paper-scissors-lizard-spock game.
+  2. Go to the repository for this project, johncci/rock-paper-scissors-lizard-spock-game.
   3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
   4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
   5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
