@@ -2,7 +2,7 @@
 
 
 ## <U>**Introduction**</U>
-I first became aware of this game when I viewed it on an episode of the american comedy show 'The Big Bang Theory'. The game is based on the original game of chance named Rock, Paper, Scissors. This game adds two extra options referred to as 'lizard' and 'spock'. Each image is assigned a hand signal which represents the option the user chooses. Each option can either win, lose or draw depending on the option the opponent chooses. It is essentially a simple game of chance. The website I have created allows the user to play against a bot until a winning score is reached. To view the full website please click on the following link displayed below.
+I first became aware of this game when I viewed it on an episode of the american comedy show 'The Big Bang Theory'. The game is based on the original game of chance named Rock, Paper, Scissors. This game adds two extra options named 'lizard' and 'spock'. Each image is assigned a hand signal which represents the option the user chooses. Each option can either win, lose or draw depending on the option the opponent chooses. It is essentially a simple game of chance. The website I have created allows the user to play against a bot until a winning score is reached and then restart and play again if they choose to do so. The target audience for this game are the millions of people who have watched the show 'The big Bang Theory'. The idea of playing the game that is described in the show has illicited a positive response in my experience and this is my motivation to create my own version of this game. To view the full website please click on the following link displayed below.
 
 
 ![Am I responsive website image](assets/images/am-i-responsive.png)
@@ -12,7 +12,7 @@ I first became aware of this game when I viewed it on an episode of the american
 
 ## <u>**Design Goals**</u> ##
 
-The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winner of each round is also displayed for the user. The overall design of the page including the game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galactical objects because it has a relationship to both spock and the american show the Big Bang Theory where the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll up or down when they started playing so the scores down to the gameplay options remain visable on the screen during gameplay. This will apply mainly to smaller screens.
+The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winner of each round is also displayed for the user. The overall design of the page including the game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galactical objects because it has a relationship to both spock and the american show the Big Bang Theory where the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll up or down when they started playing, so the scores down to the gameplay options remain visable on the screen during gameplay. This applies mainly to smaller screens.
 
 
 ## <u>**Design Features**</u> ##
@@ -29,12 +29,12 @@ The purpose of this game is to provide the user with an enjoyable game of chance
 
 * **Main page**
 
-  * On arrival to the website the user will be instantly viewing the game they want to play. The home page displays the game central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes during gameplay.
+  * On arrival to the website the user will be instantly viewing the gameplay area. The home page displays the game central to the page. It has the score clearly displayed above what are the two combatant boxes which represent the user and the bot. The five options for the game are displayed below these boxes and are represented by the relevant hand signals for each choice. The page is designed to provide the user with an easy to use game that has clear choices and also to display clear results to the choices the user makes during gameplay.
 
   The box below the combatant boxes tells the user who has won after each turn and then when the winning score is reached, it will display a message stating who is the overall winner. The same box allows the user to see the winning score required to win the game before the first game is initiated. I have also included text telling the user to check the menu for the rules and where to click to begin the game. I included these three lines of text so that getting started and the purpose of the game can immediately become evident to the user.
 
 
-    ![Main Page](assets/images/main-page.png)
+  ![Main Page](assets/images/main-page.png)
 
 
 * **Footer** 
@@ -42,20 +42,20 @@ The purpose of this game is to provide the user with an enjoyable game of chance
   * The footer is a simple design which remains consistent on both pages. Its only content is the copyright for the game.
 
 
-   ![Footer containing copright for the game](assets/images/footer-image.png) 
+  ![Footer containing copright for the game](assets/images/footer-image.png) 
 
 
 * **Rules page**
 
-  * The only other page attached to this website contains the rules of the game. The rules are defined here as the result of any choice the user makes. I gave consideration to displaying the rules on the main page and keeping the content to a single page however I came to the decision that this would have a negative impact on user experience on smaller devices such as mobile phones due to having to scrolling up and down. The design is intented to be just a simple set of rules that are easy to read and are not distracted by any background images.
+  * The only other page attached to this website contains the rules of the game. The rules are defined here as the result of any choice the user makes. I gave consideration to displaying the rules on the main page and keeping the content to a single page however I came to the decision that this would have a negative impact on user experience on smaller devices such as mobile phones due to having to scroll up and down during gameplay. The design is intented to be just a simple set of rules that are easy to read and are not distracted by any background images.
 
 
-     ![Rules of the game](assets/images/rules-page.png)
+  ![Rules of the game](assets/images/rules-page.png)
   
 
 ## **Initial Discussion**
 
-Rock-Paper-Scissors-Lizard-Spock is a simple and easy to play game intended for use by all ages. The website is intended to have a simple layout which only provides the information required to play the game. The intention was to design a layout that is eye catching to the user and is not a distraction from the game itself. The user and bot images are simple black outlines so as to provide a positive response when the box is populated by a user choice which in turn also selects a bot choice.
+Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use by all ages. The website is intended to have a simple layout which only provides the information required to play the game. The intention was to design a layout that is eye catching to the user but also not a distraction from the game itself. The user and bot images are simple black outlined figures so as to provide a positive response when the box is populated by a user choice which then in turn selects a bot choice.
 
 <br>
 
@@ -78,16 +78,16 @@ Rock-Paper-Scissors-Lizard-Spock is a simple and easy to play game intended for 
   * To provide easy navigation throughout the site so users can easily navigate to and from both pages.
   * To allow quick and easy gameplay.
   * To display a winner and loser at the end of each completed game.
-  * To allow the next click on the choices to begin the next game.
+  * To allow the next click on the gameplay choices to begin the next game.
 
 <br>
 
 * **First Time Visitor Goals**
 
   * I want to view the rules of the game before playing.
-  * I want easy navigation from the game page to the rules page and back again.
+  * I want easy navigation from the game to the rules page and back again.
   * I want to see who wins and loses after each turn so I do not have to keep returning to the rules to understand what is   happening during gameplay.
-  * I want to have a clear message as feedback on the screen to inform me if I win or lose the game.
+  * I want to have a clear message on the screen to inform me if I win or lose the game.
   * I want the game to quickly reset so I can play again after completion of each game.
 
 <br>
@@ -106,7 +106,7 @@ Rock-Paper-Scissors-Lizard-Spock is a simple and easy to play game intended for 
 
 ## **Wireframes**
 
- The following images are the wireframe created for the main page and the rules page. I gave consideration to using a wireframe tool but instead I opted to wireframe the game using pencil and paper. The design is relatively simple and only one page required more than a single box so this is my reasoning behind using this method.
+ The following images are the wireframes created for the main page and the rules page. I gave consideration to using a wireframe tool but instead I opted to wireframe the game using pencil and paper. The design is relatively simple and only one page required any significant detail so this is my reasoning behind using this method.
 
  * **Main Page**
 
@@ -142,7 +142,7 @@ Rock-Paper-Scissors-Lizard-Spock is a simple and easy to play game intended for 
 
 * **Imagery**
 
-  * All imagery was used with the permission of their owners. I have credited all of these in the Credits section of this README.md File.
+  * All imagery was used with the permission of the owners. I have credited all of these in the Credits section of this README.md file.
 <br>
 
 ## <U>**Accessibility**</U>
@@ -155,9 +155,9 @@ Rock-Paper-Scissors-Lizard-Spock is a simple and easy to play game intended for 
 
   * Ensuring sufficent colour contrast throughout the site. This was ensured by testing the website on [wave](https://wave.webaim.org/). The two links below are the results of these tests.
 
-  [Main page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu69.gitpod.io/)
+  [Main page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io/)
 
-  [Rules page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu69.gitpod.io/rules.html)
+  [Rules page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io/rules.html)
 
 <br>
 
@@ -184,11 +184,11 @@ Rock-Paper-Scissors-Lizard-Spock is a simple and easy to play game intended for 
 
 ## <U>**Testing and Bugs**</U>
 
-Testing was an ongoing process from the start to the finish of the project build. I used chrome developer tools to assist me in solving problems as I progressed through the project. I encountered the following build issues and bugs as I progressed through the project.
+Testing was an ongoing process from the start to the finish of the project build. I used chrome developer tools to assist me in solving problems as I progressed through the project. I encountered the following build issues and bugs as I progressed through this project.
 
  * The hamburger menu would not perform as expected. The contained nav bar was intended to display central when clicked but it displayed at the top of the opened box. I corrected this by targetting the css through javaScript and had it display as a centered flex property.
 
- * The hamburger menu also needed to be double clicked to open on arrival to the page, after it was clicked the first time it would respond to a single click and operate as expected. I am still not aware of why this was happening ,however after changing core javaScript to JQuery this problem was resolved and it now opens with a single click. This is no longer an issue for the functionality of my website as used a different method to display the hamburger menu but I have attached an image of the unfixed bug below.
+ * The hamburger menu also needed to be double clicked to open on arrival to the page, after it was clicked the first time it would respond to a single click and operate as expected. I am still not aware of why this was happening ,however after changing core javaScript to JQuery this problem was resolved and it now opens with a single click. This is no longer an issue for the functionality of my website as It is not rleavant to the finished website but I have attached an image of the unfixed bug below.
 
  ![JavaScript unfixed bug](assets/images/js-unfixed-bug.png)
 
@@ -200,8 +200,8 @@ Testing was an ongoing process from the start to the finish of the project build
 
 * The W3C validator was used to to validate the html on all pages of this website. No errors were returned when passing through the W3C validator.
  
-  * [Main Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu69.gitpod.io%2Findex.html%23home)
-  * [Rules Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu69.gitpod.io%2Frules.html)
+  * [Main Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io%2Findex.html)
+  * [Rules Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io%2Frules.html)
   
 <br>
 
@@ -222,7 +222,7 @@ Testing was an ongoing process from the start to the finish of the project build
 
 * Device testing
 
-  * I performed testing on the following devices - Samsung S21+ , Samsung S10 and Huawei MateBook D15. I also used google chrome developer tools to check the sites responsiveness on the following devices - iPhone SE, iphone XR, iphone 12 pro, Pixel 5, Samsung Galaxy S8, Samsung Galaxy S20 Ultra, ipad Air, Surface Pro 7, Surface Duo, Galaxy Fold, Samsung Galaxy A51/71, Nest Hub, Nest Hub Max. All tests showed the website to perform as expected.
+  * I performed testing on the following devices - Samsung S21+ , Samsung S10 and Huawei MateBook D15. I also used Google Chrome developer tools to check the sites responsiveness on the following devices - iPhone SE, iphone XR, iphone 12 pro, Pixel 5, Samsung Galaxy S8, Samsung Galaxy S20 Ultra, ipad Air, Surface Pro 7, Surface Duo, Galaxy Fold, Samsung Galaxy A51/71, Nest Hub, Nest Hub Max. All tests showed the website to perform as expected.
 
 * Browser testing
 
@@ -347,7 +347,7 @@ To clone the Rock-Paper-Scissors-Lizard-Spock repository:
   * The images on this site were changed from there original settings using [ezgif.com](https://ezgif.com/).
   * The font for this page was set using [googlefonts.com](https://fonts.google.com/). 
   * The alt and aria-label attributes were tested using [NVaccess.org](https://www.nvaccess.org/download/).
-  * The accessibility of the website was checked using [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/).
+  * The accesibility of the website was checked using [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/).
   * The background image used in this website was downloaded from [freepik.com](https://www.freepik.com/search?format=search&query=space%20background).
 
   All media listed above was used with the permission of the owner.
@@ -361,7 +361,7 @@ To clone the Rock-Paper-Scissors-Lizard-Spock repository:
 
   * Code Institute Tutors - For assisting me with various issues throughout the project and never failing to point me in the right direction.
 
-  * Slack community - For helping me with various problems I have had during the build of this project and for giving up there own time in providing this help. Its help that i always try to return if I can.
+   * Slack community - For helping me with various problems I have had during the build of this project and for giving up there own time in providing this help. Its help that i always try to return if I can.
 
   * Family - My wife and two kids who have been shown incredible patience as I spend my days in work and my nights studying.
 
