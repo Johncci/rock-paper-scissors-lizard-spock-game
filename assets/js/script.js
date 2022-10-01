@@ -183,7 +183,6 @@ $(document).ready(function () {
     function updateScore() {
         botScoreText.text(botScore);
         userScoreText.text(userScore);
-
     }
 
     //This function updates the outcome of the game if the user wins and displays the assigned text.
@@ -193,7 +192,6 @@ $(document).ready(function () {
         if (userScore === 5) {
             outcome.text("Congratulations, You are the winner!");
         }
-
     }
 
     //This function updates the outcome of the game if the bot wins and displays the assigned text.
@@ -211,7 +209,6 @@ $(document).ready(function () {
             userScore = 0;
             botScore = 0;
         }
-
     }
 
     //This switch/case statement gets the images required for the above functions based on selections.
@@ -230,7 +227,6 @@ $(document).ready(function () {
                 return "assets/images/spock.option.webp";
             default:
                 return "";
-
         }
     }
 });

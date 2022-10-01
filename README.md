@@ -2,7 +2,7 @@
 
 
 ## <U>**Introduction**</U>
-I first became aware of this game when I viewed it on an episode of the american comedy show 'The Big Bang Theory'. The game is based on the original game of chance named Rock, Paper, Scissors. This game adds two extra options named 'lizard' and 'spock'. Each image is assigned a hand signal which represents the option the user chooses. Each option can either win, lose or draw depending on the option the opponent chooses. It is essentially a simple game of chance. The website I have created allows the user to play against a bot until a winning score is reached and then restart and play again if they choose to do so. The target audience for this game are the millions of people who have watched the show 'The big Bang Theory'. The idea of playing the game that is described in the show has illicited a positive response in my experience and this is my motivation to create my own version of this game. To view the full website please click on the following link displayed below.
+I first became aware of this game when I viewed it on an episode of the american comedy show 'The Big Bang Theory'. The game is based on the original game of chance named Rock, Paper, Scissors. This game adds two extra options named 'lizard' and 'spock'. Each image is assigned a hand signal which represents the option the user chooses. Each option can either win, lose or draw depending on the option the opponent chooses. It is essentially a simple game of chance. The website I have created allows the user to play against a bot until a winning score is reached and then restart and play again if they choose to do so. The target audience for this game are the millions of people who have watched the show 'The Big Bang Theory'. The idea of playing the game that is described in the show has illicited a positive response in my experience and this is my motivation to create my own version of this game. To view the full website please click on the following link displayed below.
 
 
 ![Am I responsive website image](assets/images/am-i-responsive.png)
@@ -12,7 +12,7 @@ I first became aware of this game when I viewed it on an episode of the american
 
 ## <u>**Design Goals**</u> ##
 
-The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winner of each round is also displayed for the user. The overall design of the page including the game layout and colour is intended to provide a simple easy to use game while engaging the users interest on arrival to the page. The background image was chosen as galactical objects because it has a relationship to both spock and the american show the Big Bang Theory where the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll up or down when they started playing, so the scores down to the gameplay options remain visable on the screen during gameplay. This applies mainly to smaller screens.
+The purpose of this game is to provide the user with an enjoyable game of chance. The main features included provide the user with the ability to play a number of turns against the computer until a winning score of five is achieved. The score is tracked and displayed for the user. The winner of each round is also displayed for the user. The overall design of the page including the game layout and colour is intended to provide a simple easy to play game while engaging the users interest on arrival to the page. The background image was chosen as galactical objects because it has a relationship to both spock and the american show the Big Bang Theory where the game became more widely known. I was conscious of implementing the styles of the game in a way that meant the user did not have to scroll up or down when they started playing, so the scores down to the gameplay options remain visable on the screen during gameplay. This applies mainly to smaller screens.
 
 
 ## <u>**Design Features**</u> ##
@@ -55,7 +55,7 @@ The purpose of this game is to provide the user with an enjoyable game of chance
 
 ## **Initial Discussion**
 
-Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use by all ages. The website is intended to have a simple layout which only provides the information required to play the game. The intention was to design a layout that is eye catching to the user but also not a distraction from the game itself. The user and bot images are simple black outlined figures so as to provide a positive response when the box is populated by a user choice which then in turn selects a bot choice.
+Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use by all ages. The website is intended to have a simple layout which only provides the information required to play the game. The intention was to design a layout that is eye catching to the user but also not a distraction from the gameplay. The user and bot images are simple black outlined figures so as to provide a positive response when the box is populated by a user choice which then in turn selects a bot choice.
 
 <br>
 
@@ -155,9 +155,9 @@ Rock-Paper-Scissors-Lizard-Spock is a simple easy to play game intended for use 
 
   * Ensuring sufficent colour contrast throughout the site. This was ensured by testing the website on [wave](https://wave.webaim.org/). The two links below are the results of these tests.
 
-  [Main page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io/)
+  [Main page accessibility test]()
 
-  [Rules page accessibility test](https://wave.webaim.org/report#/https://8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io/rules.html)
+  [Rules page accessibility test]()
 
 <br>
 
@@ -188,7 +188,7 @@ Testing was an ongoing process from the start to the finish of the project build
 
  * The hamburger menu would not perform as expected. The contained nav bar was intended to display central when clicked but it displayed at the top of the opened box. I corrected this by targetting the css through javaScript and had it display as a centered flex property.
 
- * The hamburger menu also needed to be double clicked to open on arrival to the page, after it was clicked the first time it would respond to a single click and operate as expected. I am still not aware of why this was happening ,however after changing core javaScript to JQuery this problem was resolved and it now opens with a single click. This is no longer an issue for the functionality of my website as It is not rleavant to the finished website but I have attached an image of the unfixed bug below.
+ * The hamburger menu also needed to be double clicked to open on arrival to the page, after it was clicked the first time it would respond to a single click and operate as expected. I am still not aware of why this was happening ,however after changing core javaScript to JQuery this problem was resolved and it now opens with a single click. This is no longer an issue for the functionality of my website as it is not relevant to the finished website but I have attached an image of the unfixed bug below.
 
  ![JavaScript unfixed bug](assets/images/js-unfixed-bug.png)
 
@@ -200,8 +200,8 @@ Testing was an ongoing process from the start to the finish of the project build
 
 * The W3C validator was used to to validate the html on all pages of this website. No errors were returned when passing through the W3C validator.
  
-  * [Main Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io%2Findex.html)
-  * [Rules Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-rockpaperscisso-igo6l1zb96j.ws-eu67.gitpod.io%2Frules.html)
+  * [Main Page HTML]()
+  * [Rules Page HTML]()
   
 <br>
 
@@ -301,7 +301,7 @@ The live website was deployed by following the instructions below. Github pages 
 
   1. Log in to GitHub.
   2. Find the repository named rock-paper-scissors-lizard-spock.
-  3. click on the settings link.
+  3. Click on the settings link.
   4. Once in settings, navigate to the pages tab on the side menu.
   5. Under source, Select the branch to main, then click save.
   6. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate a successful deployment.
@@ -326,7 +326,7 @@ To clone the Rock-Paper-Scissors-Lizard-Spock repository:
 
 ## <u>**Libraries**</u>
 
-* jQuery is the only library used for this website. The reason I chose to use this library was for readability and just to make the code appear tidier. I am aware that it was not really necessary to use jQuery to build this website but i decided that it was beneficial and educational to me to write the code using core javaScript and then use W3Schools documentation for reference to write the jQuery code. The main device used to implement this plan was the website SyncFiddle which I used as a testing area for this website.
+* jQuery is the only library used for this website. The reason I chose to use this library was for readability and just to make the code appear tidier. I am aware that it was not really necessary to use jQuery to build this website but I decided that it was beneficial and educational to me to write the code using core javaScript and then use W3Schools documentation for reference to write the jQuery code. The main device used to implement this plan was the website SyncFiddle which I used as a testing area for this website.
 
 ## <u>**Credits**</u>
 
@@ -347,7 +347,7 @@ To clone the Rock-Paper-Scissors-Lizard-Spock repository:
   * The images on this site were changed from there original settings using [ezgif.com](https://ezgif.com/).
   * The font for this page was set using [googlefonts.com](https://fonts.google.com/). 
   * The alt and aria-label attributes were tested using [NVaccess.org](https://www.nvaccess.org/download/).
-  * The accesibility of the website was checked using [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/).
+  * The accessibility of the website was checked using [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/).
   * The background image used in this website was downloaded from [freepik.com](https://www.freepik.com/search?format=search&query=space%20background).
 
   All media listed above was used with the permission of the owner.
@@ -361,7 +361,7 @@ To clone the Rock-Paper-Scissors-Lizard-Spock repository:
 
   * Code Institute Tutors - For assisting me with various issues throughout the project and never failing to point me in the right direction.
 
-   * Slack community - For helping me with various problems I have had during the build of this project and for giving up there own time in providing this help. Its help that i always try to return if I can.
+  * Slack community - For helping me with various problems I have had during the build of this project and for giving up there own time in providing this help. It is help that I always try to return if I can be of assistance.
 
   * Family - My wife and two kids who have been shown incredible patience as I spend my days in work and my nights studying.
 
